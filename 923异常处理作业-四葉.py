@@ -11,13 +11,27 @@ test_data=[["http://119.23.241.154:8080/futureloan/mvc/api/member/recharge","136
 payload1 = {'mobilephone': test_data[0][1], 'amount': test_data[0][2]}
 payload2 = {'mobilephone': test_data[1][1], 'amount': test_data[1][2]}
 url=test_data[0][0]
-result1=requests.get(url,payload1)
-print(result1.text)
-print(result1.json())
 
-result2=requests.post(url,payload2)
-print(result2.text)
-print(result2.json())
+def chargeGet(url,payload):
+    try:
+     result1=requests.get(url,payload)
+    except Exception as e:
+     print("充值出错，异常为%s"%e)
+    else:
+     print(result1.text)
+     print(result1.json())
+chargeGet(url,payload1)
+
+def chargePost(url,payload):
+    try:
+     result2=requests.post(url,payload)
+    except Exception as e:
+     print("充值出错，异常为%s"%e)
+    else:
+     print(result2.text)
+     print(result2.json())
+chargePost(url,payload2)
+
 
 
 
