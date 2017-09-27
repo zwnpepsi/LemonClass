@@ -17,7 +17,7 @@ class RequestsTest:
         for i in range(len(self.data)):
             if i==1:
                 try:
-                    result2=requests.post(self.url,self.data[1])
+                    result2=requests.post(self.url,self.data[i])
                 except Exception as e:
                     print("充值出错，异常为%s"%e)
                 else:
