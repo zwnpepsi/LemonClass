@@ -1,15 +1,25 @@
+#-*-coding:utf-8-*-
+import win32ui
+import tkinter.filedialog
 import os
 import xlrd
 def sortRename():
+    dlg = win32ui.CreateFileDialog(1,"111")   #通过win32ui库打开Windows自带选择框打开文件
+    dlg.SetOFNTitle("打开总表文件")            #选择框默认名称
+    dlg.SetOFNInitialDir('C:')                   #选择框默认位置
+    dlg.DoModal()
+    filename = dlg.GetPathName()
+
+    directoryname =tkinter.filedialog.askdirectory()    #通过tikinter库调用windows选择框打开指定目录
     try:
-        data = xlrd.open_workbook('C:\\Users\\张伟男\Desktop\\总表.xlsx')
+        data = xlrd.open_workbook(filename)
     except Exception as  e:
         print("文件打开错误 %s"%e)
     else:
         table = data.sheets()[0] #获取sheet1
         number=table.col_values(0) #第1列序号
         name=table.col_values(1) #第2列名称
-        os.chdir("C:\\Users\\张伟男\Desktop\\老爹文档\\连心园小区7-9月份各户维修工程") #指定目录位置
+        os.chdir(directoryname) #指定目录位置
         for i in range(len(name)):
             for j in range(len(name)):
                 name2=os.listdir()    #定义指定目录下所有文件或文件夹的名字
@@ -22,3 +32,4 @@ def sortRename():
                     os.rename(name2[j], str(newname2))     #对文件夹进行重命名
 
 sortRename()
+
