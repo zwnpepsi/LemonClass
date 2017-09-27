@@ -4,15 +4,16 @@ import tkinter.filedialog
 import os
 import xlrd
 def sortRename():
-    dlg = win32ui.CreateFileDialog(1,"111")   #通过win32ui库打开Windows自带选择框打开文件
+    '''dlg = win32ui.CreateFileDialog(1,"111")   #通过win32ui库打开Windows自带选择框打开文件
     dlg.SetOFNTitle("打开总表文件")            #选择框默认名称
     dlg.SetOFNInitialDir('C:')                   #选择框默认位置
     dlg.DoModal()
-    filename = dlg.GetPathName()
+    filename = dlg.GetPathName()'''
+    filename2 = tkinter.filedialog.askopenfilename()     #通过tikinter库调用windows选择框打开指定文件
 
     directoryname =tkinter.filedialog.askdirectory()    #通过tikinter库调用windows选择框打开指定目录
     try:
-        data = xlrd.open_workbook(filename)
+        data = xlrd.open_workbook(filename2)
     except Exception as  e:
         print("文件打开错误 %s"%e)
     else:
@@ -23,7 +24,7 @@ def sortRename():
         for i in range(len(name)):
             for j in range(len(name)):
                 name2=os.listdir()    #定义指定目录下所有文件或文件夹的名字
-                if name2[j].encode('utf-8')==name[i].encode('utf-8'):  #判断指定文件夹名称与excel文档中名称相等
+                if str(name2[j]).encode('utf-8')==str(name[i]).encode('utf-8'):  #判断指定文件夹名称与excel文档中名称相等
                     newname1=int(number[i]),'-',name2[j]    #定义新名字为序号+“-”+原名字，新名字类型为元组
                     newname2=""                             #定义最终新名字为字符串
                     for k in newname1:
