@@ -21,6 +21,9 @@ class Req:
 
 result1=Req({"mobilephone":"13667692121","amount":1000},"recharge")
 result1.recharge()
-
+reslult2=Req({"mobilephone":"13667692121","amount":1000},"login")
+reslult2.login()
+reslult3=Req({"mobilephone":"13810737246","pwd":"123456"},"register")
+reslult3.register()
 '''print(Req({"mobilephone":"13667692121","amount":1000},"login"))
 print(Req({"mobilephone":"13667692121","amount":1000},"register"))'''
