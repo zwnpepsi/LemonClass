@@ -46,6 +46,10 @@ print(result.OutputMessage(18,40))
 
 
 for i in range(1,101,1):
-    f=open("C:\\123.txt",'a+')
-    f.writelines(result.OutputMessage(1,100)+"\n")
-    i += 1
+    try:
+        f = open("C:\\123.txt", 'a+')
+        f.writelines(result.OutputMessage(1, 100) + "\n")
+        i += 1
+        f.close()
+    except Exception as e:
+        print("出错了！%s" % e)
