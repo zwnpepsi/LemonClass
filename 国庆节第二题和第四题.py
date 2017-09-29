@@ -39,7 +39,8 @@ class RandomMessage:
 
 
 sequence=["Lisa","sisi","xiaohei","ergui","zhizhuo","siye","yuangungun"]
-result=RandomMessage(sequence,2)
+
+result=RandomMessage(sequence,1)
 print("随机指定长度为1的列表为：",result.RandomSample())
 print("随机指定长度为1的列表转化为字符串后为：",result.ListToStr())
 print(result.OutputMessage(18,40))
