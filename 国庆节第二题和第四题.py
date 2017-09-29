@@ -35,11 +35,17 @@ class RandomMessage:
             print("出错了！%s" % e)
 
     def OutputMessage(self,a,b):
-        print("姓名：%s ,年龄：%s, 性别: %s"%(self.ListToStr(),self.RandintInt(a,b),self.ChoiceSex()))
+        return ("姓名：%s ,年龄：%s, 性别: %s"%(self.ListToStr(),self.RandintInt(a,b),self.ChoiceSex()))
 
 
 sequence=["Lisa","sisi","xiaohei","ergui","zhizhuo","siye","yuangungun"]
 result=RandomMessage(sequence,2)
 print("随机指定长度为1的列表为：",result.RandomSample())
 print("随机指定长度为1的列表转化为字符串后为：",result.ListToStr())
-result.OutputMessage(18,40)
+print(result.OutputMessage(18,40))
+
+
+for i in range(1,101,1):
+    f=open("C:\\123.txt",'a+')
+    f.writelines(result.OutputMessage(1,100)+"\n")
+    i += 1
