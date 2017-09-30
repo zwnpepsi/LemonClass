@@ -28,4 +28,8 @@ class TransmitIP:
 
 
 a=TransmitIP("http://192.168.1.1:8080")
-print(a.ReadTestData())
+#print(a.ReadTestData())
+
+t=a.ReadTestData()
+for i in range(5):
+    print(t[i])
