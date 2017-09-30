@@ -32,7 +32,7 @@ class HttpRequest:
     def register(self):
         self.recharge()
 
-recharge_data={"mobilephone":"13667692121","amount":1000}
+recharge_data={"mobilephone":"13810737247","amount":1000}
 result1=HttpRequest(recharge_data,"recharge","GET")
 result1.recharge()
 

@@ -35,7 +35,7 @@ class RandomMessage:
             print("出错了！%s" % e)
 
     def OutputMessage(self,a,b):
-        return ("姓名：%s ,年龄：%s, 性别: %s"%(self.ListToStr(),self.RandintInt(a,b),self.ChoiceSex()))
+        return ("姓名:%s,年龄:%s,性别:%s"%(self.ListToStr(),self.RandintInt(a,b),self.ChoiceSex()))
 
 
 sequence=["Lisa","sisi","xiaohei","ergui","zhizhuo","siye","yuangungun"]
@@ -46,11 +46,33 @@ print("随机指定长度为1的列表转化为字符串后为：",result.ListTo
 print(result.OutputMessage(18,40))
 
 
-for i in range(1,101,1):
+#第四题
+for i in range(0,100):
     try:
-        f = open("C:\\123.txt", 'a+')
-        f.writelines(result.OutputMessage(1, 100) + "\n")
-        i += 1
-        f.close()
+         f = open("C:\\123.txt", 'a+')
+         f.seek(0,0)
     except Exception as e:
-        print("出错了！%s" % e)
+        print("出错啦%s"%e)
+    else:
+         total=result.OutputMessage(18,50)
+         total1 = total.split(",")
+         total2 = total1[0].split(":")
+         if total2[1] in f.read():
+             newText = total.replace(total2[1], total2[1]+str(i))
+             f.write(newText+"\n")
+             i+=1
+             f.close()
+         else:
+             f.write(total+"\n")
+             i+=1
+             f.close()
+
+
+
+       
+        
+        
+
+
+
+
