@@ -1,7 +1,7 @@
 import unittest
 import time
 import HTMLTestRunner
-from lemonclass.class_1010课 import TestMath
+from lemonclass.class_1010 import TestMath
 
 suite=unittest.TestSuite()
 suite.addTest(TestMath("test_sum"))
