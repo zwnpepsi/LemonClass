@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a7fa182-adb6-409c-9a7a-0cd6f341cf8a" name="Default" comment="重新整理文档">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lemonclass/class_1010课.py" afterPath="$PROJECT_DIR$/lemonclass/class_1010.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lemonclass/class_测试集.py" afterPath="$PROJECT_DIR$/lemonclass/class_测试集.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lemonclass/class_1010.py" afterPath="$PROJECT_DIR$/lemonclass/class_1010.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,12 +30,12 @@
     <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_1010_py.coverage" NAME="Unittests in 1010课.py Coverage Results" MODIFIED="1507643368131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$3.coverage" NAME="第3节课 Coverage Results" MODIFIED="1506151985488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$123.coverage" NAME="123 Coverage Results" MODIFIED="1505538331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sub.coverage" NAME="Unittests for class_1010.TestMath.test_sub Coverage Results" MODIFIED="1507652178672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sum.coverage" NAME="Unittests for class_1010课.TestMath.test_sum Coverage Results" MODIFIED="1507651044166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath.coverage" NAME="Unittests for class_1010.TestMath Coverage Results" MODIFIED="1507652318570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sub.coverage" NAME="Unittests for class_1010.TestMath.test_sub Coverage Results" MODIFIED="1507652545281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sum.coverage" NAME="Unittests for class_1010.TestMath.test_sum Coverage Results" MODIFIED="1507653233682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath.coverage" NAME="Unittests for class_1010.TestMath Coverage Results" MODIFIED="1507653310268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
     <SUITE FILE_PATH="coverage/LemonClass$5.coverage" NAME="国庆第5题 Coverage Results" MODIFIED="1507450372846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1505401580530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xlrd-1.1.0" />
-    <SUITE FILE_PATH="coverage/LemonClass$class_.coverage" NAME="class_测试集 Coverage Results" MODIFIED="1507652357727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$class_.coverage" NAME="class_测试集 Coverage Results" MODIFIED="1507653317589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
     <SUITE FILE_PATH="coverage/LemonClass$916_.coverage" NAME="916作业-四葉 Coverage Results" MODIFIED="1506002584638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1506790021397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$OS.coverage" NAME="OS操作 Coverage Results" MODIFIED="1507640687779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_1010.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class_1010.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lemonclass/class_1010.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_测试集.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_测试集.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lemonclass/class_测试集.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -333,6 +332,21 @@
       <option name="_new_target" value="&quot;class_1010.TestMath.test_sub&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for class_1010.TestMath.test_sum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lemonclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LemonClass" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;class_1010.TestMath.test_sum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for lemonclass.class_1010.TestMath.test_sub" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,21 +361,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;lemonclass.class_1010.TestMath.test_sub&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in class_1010.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lemonclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LemonClass" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lemonclass/class_1010.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="class-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,17 +403,17 @@
       <item index="1" class="java.lang.String" itemvalue="Python.923IO处理作业-四葉" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for lemonclass.class_1010.TestMath.test_sub" />
       <item index="3" class="java.lang.String" itemvalue="Python.class_测试集" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in class_1010.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sum" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.class_测试集" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for lemonclass.class_1010.TestMath.test_sub" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in class_1010.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for lemonclass.class_1010.TestMath.test_sub" />
       </list>
     </recent_temporary>
   </component>
@@ -499,39 +498,46 @@
       <option name="project" value="LOCAL" />
       <updated>1507651357689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="重新整理文档">
+      <created>1507652393849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652393849</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 18m 39s.xml">
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 23m 27s.xml">
       <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sub - 2017.10.10 at 23h 52m 30s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sub" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 28m 49s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sub - 2017.10.10 at 23h 59m 53s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sub" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 29m 28s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sub - 2017.10.11 at 00h 05m 57s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sub" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 31m 56s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sub - 2017.10.11 at 00h 08m 06s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sub" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 34m 41s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sum - 2017.10.10 at 23h 43m 27s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sum" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 34m 56s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sum - 2017.10.10 at 23h 45m 45s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sum" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath - 2017.10.11 at 00h 35m 10s.xml">
+      <configuration name="Unittests for class_1010.TestMath" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sum - 2017.10.10 at 23h 47m 53s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sum" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath_test_sum - 2017.10.11 at 00h 31m 03s.xml">
+      <configuration name="Unittests for class_1010.TestMath.test_sum" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_class_1010课_TestMath_test_sum - 2017.10.10 at 23h 57m 24s.xml">
-      <configuration name="Unittests for class_1010课.TestMath.test_sum" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath_test_sum - 2017.10.11 at 00h 31m 43s.xml">
+      <configuration name="Unittests for class_1010.TestMath.test_sum" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_class_1010课_py - 2017.10.11 at 00h 12m 48s.xml">
-      <configuration name="Unittests in class_1010课.py" configurationId="tests" />
+    <history-entry file="Unittests_for_class_1010_TestMath_test_sum - 2017.10.11 at 00h 33m 53s.xml">
+      <configuration name="Unittests for class_1010.TestMath.test_sum" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -926,6 +932,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lemonclass/class_928课堂练习.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -936,27 +950,9 @@
     </entry>
     <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lemonclass/class_1010.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,6 +960,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lemonclass/class_1010.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
