@@ -1,5 +1,5 @@
 class Math:
-    def __init__(self,a,b=10):
+    def __init__(self,a,b):
         self.a=a
         self.b=b
 
