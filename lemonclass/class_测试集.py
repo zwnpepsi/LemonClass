@@ -1,13 +1,13 @@
 import unittest
 import time
 import HTMLTestRunner
-from lemonclass.class_1010 import TestMath
+from ddt import ddt,data,unpack
+from lemonclass.class_10102 import TestMath
 
 suite=unittest.TestSuite()
-suite.addTest(TestMath("test_sum"))
-suite.addTest(TestMath("test_sub"))
+suite.addTest(TestMath('test_sum'))
+suite.addTest(TestMath('test_sub'))
 now = time.strftime('%Y-%m-%d_%H_%M_%S')
-
 #执行测试集合
 filePath = "pyResult"+now+".html"
 fp = open(filePath,'wb')
