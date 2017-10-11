@@ -1,8 +1,8 @@
 import unittest
 import time
 import HTMLTestRunner
-from ddt import ddt,data,unpack
-from lemonclass.class_10102 import TestMath
+# from ddt import ddt,data,unpack
+from lemonclass.class_1010 import TestMath
 
 suite=unittest.TestSuite()
 suite.addTest(TestMath('test_sum'))

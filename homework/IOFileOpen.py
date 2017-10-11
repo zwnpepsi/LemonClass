@@ -22,7 +22,7 @@ class DirOpen:
             for i in range(len(name)):
                 if os.path.isdir(path + "/" + name[i]) == True:
                     self.dirOpen(path + "/" + name[i])
-                    i += 1
+                    # i += 1
                 else:
                     # print(path + "/" + name[i])
                     f.write(path + "/" + name[i]+"\n")
