@@ -10,7 +10,7 @@ class HttpRequest:
             # print('GET的返回测试结果是：',rget.text)
             return rget.text
         except Exception as e:
-            return('出错啦！错误参数是：%s'%e)
+            print('出错啦！错误参数是：%s'%e)
 
     def post(self,url,data):
         url = self.ip+url
@@ -19,7 +19,7 @@ class HttpRequest:
             # print('POST的返回测试结果是：',rpost.text)
             return rpost.text
         except Exception as e:
-            return('出错啦！错误参数是：%s'%e)
+            print('出错啦！错误参数是：%s'%e)
 
 '''url_get = '/futureloan/mvc/api/member/recharge'
 data_get = {'mobilephone':'13810737246','amount':1000}
