@@ -1,9 +1,7 @@
 #-*-coding:utf-8-*-
 from homework.HttpRequestDemo import HttpRequest
 import unittest
-import requests
 import json
-from io import *
 
 
 class TestHttpRequest(unittest.TestCase):
