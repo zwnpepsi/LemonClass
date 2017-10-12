@@ -6,10 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/HttpRequestDemo.py" afterPath="$PROJECT_DIR$/homework/HttpRequestDemo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/IOFileOpen.py" afterPath="$PROJECT_DIR$/homework/IOFileOpen.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/unittest_HttpRequest.py" afterPath="$PROJECT_DIR$/homework/unittest_HttpRequest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lemonclass/class_1010.py" afterPath="$PROJECT_DIR$/lemonclass/class_1010.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lemonclass/class_测试集.py" afterPath="$PROJECT_DIR$/lemonclass/class_测试集.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,73 +16,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LemonClass$class_test.coverage" NAME="class-test Coverage Results" MODIFIED="1506435726482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1507648508744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_class_1010_py.coverage" NAME="Unittests in class_1010课.py Coverage Results" MODIFIED="1507651968044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$windowsexcel.coverage" NAME="通过windows打开excel文件 Coverage Results" MODIFIED="1506520417077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$919_.coverage" NAME="919作业-四葉 Coverage Results" MODIFIED="1506151868845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1506151815901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$928.coverage" NAME="928课堂练习 Coverage Results" MODIFIED="1506607268519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest.test_get Coverage Results" MODIFIED="1507732375410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$setup.coverage" NAME="setup Coverage Results" MODIFIED="1505401573791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xlwt-1.3.0" />
-    <SUITE FILE_PATH="coverage/LemonClass$changeFilename.coverage" NAME="changeFilename Coverage Results" MODIFIED="1506233052785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest.test_post Coverage Results" MODIFIED="1507716479582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_1010_TestMath.coverage" NAME="Unittests for class_1010课.TestMath Coverage Results" MODIFIED="1507647426418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$.coverage" NAME="测试集 Coverage Results" MODIFIED="1507647346142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$926.coverage" NAME="926类与对象课 Coverage Results" MODIFIED="1506435728572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$916___1_.coverage" NAME="916作业-四葉 (1) Coverage Results" MODIFIED="1505564198337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python学习svn/9-16 homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$923.coverage" NAME="923课 Coverage Results" MODIFIED="1506259154583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_unittest_HttpRequest_py.coverage" NAME="Unittests in unittest_HttpRequest.py Coverage Results" MODIFIED="1507775247463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_test_ddt_demotest.coverage" NAME="Unittests for test_ddt.demotest Coverage Results" MODIFIED="1507693645104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_10102_TestMath_test_sum.coverage" NAME="Unittests for class_10102.TestMath.test_sum Coverage Results" MODIFIED="1507693608812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_test_ddt_demotest_testc.coverage" NAME="Unittests for test_ddt.demotest.testc Coverage Results" MODIFIED="1507693625866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sum.coverage" NAME="Unittests for class_1010.TestMath.test_sum Coverage Results" MODIFIED="1507689732674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
     <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_1010_py.coverage" NAME="Unittests in 1010课.py Coverage Results" MODIFIED="1507643368131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$3.coverage" NAME="第3节课 Coverage Results" MODIFIED="1506151985488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_class_10102_py.coverage" NAME="Unittests in class_10102.py Coverage Results" MODIFIED="1507694857083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_test_ddt_demotest_testc.coverage" NAME="Unittests for test_ddt.demotest.testc Coverage Results" MODIFIED="1507693625866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$IOFileOpen.coverage" NAME="IOFileOpen Coverage Results" MODIFIED="1507730056435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$123.coverage" NAME="123 Coverage Results" MODIFIED="1505538331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sub.coverage" NAME="Unittests for class_1010.TestMath.test_sub Coverage Results" MODIFIED="1507732559995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sum.coverage" NAME="Unittests for class_1010.TestMath.test_sum Coverage Results" MODIFIED="1507689732674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1507648508744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" />
     <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath.coverage" NAME="Unittests for class_1010.TestMath Coverage Results" MODIFIED="1507689991181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$5.coverage" NAME="国庆第5题 Coverage Results" MODIFIED="1507450372846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1505401580530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xlrd-1.1.0" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_test_ddt_demotest.coverage" NAME="Unittests for test_ddt.demotest Coverage Results" MODIFIED="1507693645104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
     <SUITE FILE_PATH="coverage/LemonClass$class_.coverage" NAME="class_测试集 Coverage Results" MODIFIED="1507732611813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_unittest_HttpRequest_py.coverage" NAME="Unittests in unittest_HttpRequest.py Coverage Results" MODIFIED="1507716578036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/LemonClass$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1506790021397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$916_.coverage" NAME="916作业-四葉 Coverage Results" MODIFIED="1506002584638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$916___1_.coverage" NAME="916作业-四葉 (1) Coverage Results" MODIFIED="1505564198337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python学习svn/9-16 homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$class_test.coverage" NAME="class-test Coverage Results" MODIFIED="1506435726482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$windowsexcel.coverage" NAME="通过windows打开excel文件 Coverage Results" MODIFIED="1506520417077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_10102_TestMath_test_sub.coverage" NAME="Unittests for class_10102.TestMath.test_sub Coverage Results" MODIFIED="1507693769823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
-    <SUITE FILE_PATH="coverage/LemonClass$OS.coverage" NAME="OS操作 Coverage Results" MODIFIED="1507640687779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$9282.coverage" NAME="928课堂练习2 Coverage Results" MODIFIED="1506610225281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$htmlreport_unittest_HttpRequest.coverage" NAME="htmlreport_unittest_HttpRequest Coverage Results" MODIFIED="1507716974517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$2.coverage" NAME="第2节课 Coverage Results" MODIFIED="1505832901526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$install.coverage" NAME="install Coverage Results" MODIFIED="1505538322702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$HttpRequestDemo.coverage" NAME="HttpRequestDemo Coverage Results" MODIFIED="1507733184030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/LemonClass$916_2.coverage" NAME="916作业-四葉2 Coverage Results" MODIFIED="1506002625260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest.test_get Coverage Results" MODIFIED="1507775435706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/LemonClass$Request.coverage" NAME="Request Coverage Results" MODIFIED="1506519954163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest Coverage Results" MODIFIED="1507716276362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$20170916.coverage" NAME="20170916小黑 Coverage Results" MODIFIED="1505561039314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python学习svn/9-16 homework" />
-    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_10102_TestMath_test_sum.coverage" NAME="Unittests for class_10102.TestMath.test_sum Coverage Results" MODIFIED="1507693608812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_class_10102_py.coverage" NAME="Unittests in class_10102.py Coverage Results" MODIFIED="1507694857083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
     <SUITE FILE_PATH="coverage/LemonClass$923IO_.coverage" NAME="923IO处理作业-四葉 Coverage Results" MODIFIED="1506267844246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest Coverage Results" MODIFIED="1507775464990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$changeFilename.coverage" NAME="changeFilename Coverage Results" MODIFIED="1506233052785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$926.coverage" NAME="926类与对象课 Coverage Results" MODIFIED="1506435728572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$5.coverage" NAME="国庆第5题 Coverage Results" MODIFIED="1507450372846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$20170916.coverage" NAME="20170916小黑 Coverage Results" MODIFIED="1505561039314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python学习svn/9-16 homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$923.coverage" NAME="923课 Coverage Results" MODIFIED="1506259154583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$2.coverage" NAME="第2节课 Coverage Results" MODIFIED="1505832901526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$IOFileOpen.coverage" NAME="IOFileOpen Coverage Results" MODIFIED="1507730056435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_1010_TestMath_test_sub.coverage" NAME="Unittests for class_1010.TestMath.test_sub Coverage Results" MODIFIED="1507732559995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$OS.coverage" NAME="OS操作 Coverage Results" MODIFIED="1507640687779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$919_.coverage" NAME="919作业-四葉 Coverage Results" MODIFIED="1506151868845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_1010_TestMath.coverage" NAME="Unittests for class_1010课.TestMath Coverage Results" MODIFIED="1507647426418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$install.coverage" NAME="install Coverage Results" MODIFIED="1505538322702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$HttpRequestDemo.coverage" NAME="HttpRequestDemo Coverage Results" MODIFIED="1507775242935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1505401580530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xlrd-1.1.0" />
+    <SUITE FILE_PATH="coverage/LemonClass$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1506151815901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$.coverage" NAME="测试集 Coverage Results" MODIFIED="1507647346142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$123.coverage" NAME="123 Coverage Results" MODIFIED="1505538331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$916_.coverage" NAME="916作业-四葉 Coverage Results" MODIFIED="1506002584638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$9282.coverage" NAME="928课堂练习2 Coverage Results" MODIFIED="1506610225281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_class_10102_TestMath.coverage" NAME="Unittests for class_10102.TestMath Coverage Results" MODIFIED="1507694989467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$htmlreport_unittest_HttpRequest.coverage" NAME="htmlreport_unittest_HttpRequest Coverage Results" MODIFIED="1507775788883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_in_class_1010_py.coverage" NAME="Unittests in class_1010课.py Coverage Results" MODIFIED="1507651968044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lemonclass" />
+    <SUITE FILE_PATH="coverage/LemonClass$928.coverage" NAME="928课堂练习 Coverage Results" MODIFIED="1506607268519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemonClass$Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post.coverage" NAME="Unittests for unittest_HttpRequest.TestHttpRequest.test_post Coverage Results" MODIFIED="1507775410183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/LemonClass$setup.coverage" NAME="setup Coverage Results" MODIFIED="1505401573791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xlwt-1.3.0" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="HttpRequestDemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework/HttpRequestDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="225">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOFileOpen.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/IOFileOpen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#20#29#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +78,8 @@
       <file leaf-file-name="unittest_HttpRequest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework/unittest_HttpRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+            <state relative-caret-position="138">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="e#20#68#0" expanded="true" />
               </folding>
@@ -105,8 +90,8 @@
       <file leaf-file-name="htmlreport_unittest_HttpRequest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework/htmlreport_unittest_HttpRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="184">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -176,10 +161,10 @@
         <option value="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/0929_Jayden.py" />
         <option value="$PROJECT_DIR$/homework/htmlreport_unittest_HttpRequest.py" />
         <option value="$PROJECT_DIR$/homework/IOFileOpen.py" />
-        <option value="$PROJECT_DIR$/homework/unittest_HttpRequest.py" />
         <option value="$PROJECT_DIR$/lemonclass/class_测试集.py" />
         <option value="$PROJECT_DIR$/lemonclass/class_1010.py" />
         <option value="$PROJECT_DIR$/homework/HttpRequestDemo.py" />
+        <option value="$PROJECT_DIR$/homework/unittest_HttpRequest.py" />
       </list>
     </option>
   </component>
@@ -229,6 +214,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="更改的文件">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="LemonClass" type="cbb8eebc:String" user="LemonClass" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="LemonClass" type="cbb8eebc:String" user="LemonClass" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,32 +260,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="更改的文件">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="LemonClass" type="cbb8eebc:String" user="LemonClass" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="LemonClass" type="cbb8eebc:String" user="LemonClass" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
@@ -308,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HttpRequestDemo">
+  <component name="RunManager" selected="Python.htmlreport_unittest_HttpRequest">
     <configuration name="916作业-四葉" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,55 +330,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="HttpRequestDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LemonClass" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/HttpRequestDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="IOFileOpen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LemonClass" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/IOFileOpen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Unittests for class_1010.TestMath.test_sub" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lemonclass" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LemonClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;class_1010.TestMath.test_sub&quot;" />
+      <option name="_new_target" value="&quot;unittest_HttpRequest.TestHttpRequest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_get" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -410,6 +359,36 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unittest_HttpRequest.TestHttpRequest.test_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LemonClass" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_HttpRequest.TestHttpRequest.test_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in unittest_HttpRequest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LemonClass" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework/unittest_HttpRequest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="class-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -429,20 +408,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="class_测试集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="htmlreport_unittest_HttpRequest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lemonclass" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LemonClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lemonclass/class_测试集.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/htmlreport_unittest_HttpRequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -450,19 +429,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.916作业-四葉" />
       <item index="1" class="java.lang.String" itemvalue="Python.923IO处理作业-四葉" />
-      <item index="2" class="java.lang.String" itemvalue="Python.HttpRequestDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.IOFileOpen" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_get" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
-      <item index="6" class="java.lang.String" itemvalue="Python.class_测试集" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in unittest_HttpRequest.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_post" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_get" />
+      <item index="6" class="java.lang.String" itemvalue="Python.htmlreport_unittest_HttpRequest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.HttpRequestDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.class_测试集" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for class_1010.TestMath.test_sub" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_get" />
-        <item index="4" class="java.lang.String" itemvalue="Python.IOFileOpen" />
+        <item index="0" class="java.lang.String" itemvalue="Python.htmlreport_unittest_HttpRequest" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_get" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for unittest_HttpRequest.TestHttpRequest.test_post" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in unittest_HttpRequest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -579,49 +558,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_class_1010_TestMath_test_sub - 2017.10.11 at 22h 36m 00s.xml">
-      <configuration name="Unittests for class_1010.TestMath.test_sub" configurationId="tests" />
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest - 2017.10.12 at 10h 28m 36s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.11 at 18h 03m 36s.xml">
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest - 2017.10.12 at 10h 30m 55s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest - 2017.10.12 at 10h 31m 05s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.12 at 10h 29m 09s.xml">
       <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.11 at 22h 29m 12s.xml">
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.12 at 10h 29m 35s.xml">
       <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.11 at 22h 30m 49s.xml">
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.12 at 10h 30m 36s.xml">
       <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_get - 2017.10.11 at 22h 32m 59s.xml">
-      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_get" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post - 2017.10.11 at 18h 08m 02s.xml">
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post - 2017.10.12 at 10h 27m 48s.xml">
       <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_post" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_class_10102_py - 2017.10.11 at 12h 06m 51s.xml">
-      <configuration name="Unittests in class_10102.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post - 2017.10.12 at 10h 28m 14s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_post" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_class_10102_py - 2017.10.11 at 12h 07m 20s.xml">
-      <configuration name="Unittests in class_10102.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post - 2017.10.12 at 10h 29m 54s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_post" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_class_10102_py - 2017.10.11 at 12h 07m 37s.xml">
-      <configuration name="Unittests in class_10102.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unittest_HttpRequest_py - 2017.10.11 at 18h 09m 40s.xml">
-      <configuration name="Unittests in unittest_HttpRequest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittest_HttpRequest_TestHttpRequest_test_post - 2017.10.12 at 10h 30m 10s.xml">
+      <configuration name="Unittests for unittest_HttpRequest.TestHttpRequest.test_post" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40655738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28346458" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28289473" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -696,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,31 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/htmlreport_unittest_HttpRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lemonclass/class_10102.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/IOFileOpen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,42 +887,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/course测试集.py" />
+    <entry file="file://$PROJECT_DIR$/lemonclass/class_1010.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/course测试集.py">
+    <entry file="file://$PROJECT_DIR$/homework/IOFileOpen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lemonclass/class_1010.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="414">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#20#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/HttpRequestDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="225">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/htmlreport_unittest_HttpRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/unittest_HttpRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        <state relative-caret-position="138">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="e#20#68#0" expanded="true" />
           </folding>
