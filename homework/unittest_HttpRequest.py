@@ -7,11 +7,9 @@ import json
 class TestHttpRequest(unittest.TestCase):
     def setUp(self):
         print("测试开始" )
-        pass
 
     def tearDown(self):
         print("测试结束")
-        pass
 
     def test_get(self,url='/futureloan/mvc/api/member/recharge',data={'mobilephone':'13667692121','amount':1000}):
         try:
