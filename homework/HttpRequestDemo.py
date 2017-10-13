@@ -1,5 +1,6 @@
 #-*-coding:utf-8-*-
 import requests
+import logging
 class HttpRequest:
     def __init__(self,ip):
         self.ip = ip
@@ -10,7 +11,7 @@ class HttpRequest:
             # print('GET的返回测试结果是：',rget.text)
             return rget.text
         except Exception as e:
-            print('出错啦！错误参数是：%s'%e)
+            logging.error('出错啦！错误参数是：%s'%e)
 
     def post(self,url,data):
         url = self.ip+url
@@ -19,7 +20,7 @@ class HttpRequest:
             # print('POST的返回测试结果是：',rpost.text)
             return rpost.text
         except Exception as e:
-            print('出错啦！错误参数是：%s'%e)
+            logging.error('出错啦！错误参数是：%s'%e)
 
 '''url_get = '/futureloan/mvc/api/member/recharge'
 data_get = {'mobilephone':'13810737246','amount':1000}

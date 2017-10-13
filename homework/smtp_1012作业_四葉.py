@@ -8,6 +8,7 @@ from email.mime.base import MIMEBase
 import smtplib
 from homework.htmlreport_unittest_HttpRequest import HtmlReporter
 import time
+import logging
 
 class SmtpTest():
     def __init__(self):
@@ -43,9 +44,9 @@ class SmtpTest():
             s = smtplib.SMTP_SSL("smtp.qq.com", 465)
             s.login("1076168822@qq.com", "dlbfutsgvlsxjgaj")
             s.sendmail("1076168822@qq.com", "204893985@qq.com>", self.MailMessage(attachmentfile).as_string())
-            print("发送成功")
+            logging.info("发送成功")
         except smtplib.SMTPException as e:
-            print("发送失败Error: %s" % e)
+            logging.error("发送失败Error: %s" % e)
             # logging.error("发送失败")
         finally:
             s.quit()
