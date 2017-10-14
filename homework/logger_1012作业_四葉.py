@@ -24,6 +24,10 @@ class CollectLog:
         #给logger添加handler
         logger.addHandler(filehandler)
         logger.addHandler(streamhandler)
+
+        logging.basicConfig(level=logging.INFO,
+                            format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                            datefmt='%m-%d %H:%M')
         # return logger
         # logger.
 
@@ -32,7 +36,4 @@ class CollectLog:
 # logging.warning("warning")
 # logging.error("error")
 # log=CollectLog()
-# list=["111","222"]
-# log.Collection().info(list)
-# log.Collection().info("222")
 # log.Collection()
