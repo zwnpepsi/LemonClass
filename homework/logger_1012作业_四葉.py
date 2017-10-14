@@ -25,10 +25,10 @@ class CollectLog:
         logger.addHandler(filehandler)
         logger.addHandler(streamhandler)
 
-        logging.basicConfig(level=logging.INFO,
-                            format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-                            datefmt='%m-%d %H:%M')
-        # return logger
+        # logging.basicConfig(level=logging.INFO,
+        #                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+        #                     datefmt='%m-%d %H:%M')
+        return logger
         # logger.
 
         # logger.log(1,self.log)

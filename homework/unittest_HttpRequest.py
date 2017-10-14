@@ -7,8 +7,9 @@ from homework.logger_1012作业_四葉 import CollectLog
 
 
 class TestHttpRequest(unittest.TestCase):
-    def setUp(self):
-        return logging.info("测试开始" )
+    def setUp(self,logger=CollectLog().Collection()):
+        pass
+        # logger.info("测试开始" )
 
 
     def test_get(self,url='/futureloan/mvc/api/member/recharge',data={'mobilephone':'13667692121','amount':1000}):
@@ -31,12 +32,13 @@ class TestHttpRequest(unittest.TestCase):
         # else:
         #     print("注册测试通过")
 
-    def tearDown(self):
-        return logging.info("测试结束")
+    def tearDown(self,logger=CollectLog().Collection()):
+        pass
+        # logger.info("测试结束")
 
 
 if __name__ =='__main__':
         unittest.main()
 
-log=CollectLog()
-log.Collection()
+# log=CollectLog()
+# log.Collection()
