@@ -21,5 +21,3 @@ class HtmlReporter:
         # print(type(runner.run(suite)))
         return filePath
 
-# reporter=HtmlReporter()
-# reporter.CreateReporter()
