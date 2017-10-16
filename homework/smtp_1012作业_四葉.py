@@ -10,7 +10,7 @@ from homework.htmlreport_unittest_HttpRequest import HtmlReporter
 import time
 import logging
 
-class SmtpTest():
+class SmtpTest:
     def __init__(self):
         pass
 
@@ -47,7 +47,6 @@ class SmtpTest():
             logging.info("发送成功")
         except smtplib.SMTPException as e:
             logging.error("发送失败Error: %s" % e)
-            # logging.error("发送失败")
         finally:
             s.quit()
 
