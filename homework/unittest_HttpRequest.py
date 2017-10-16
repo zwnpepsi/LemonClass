@@ -2,14 +2,14 @@
 from homework.HttpRequestDemo import HttpRequest
 import unittest
 import json
-import logging
 from homework.logger_1012作业_四葉 import CollectLog
 
-
 class TestHttpRequest(unittest.TestCase):
-    def setUp(self,logger=CollectLog().Collection()):
-        pass
-        # logger.info("测试开始" )
+
+    def setUp(self):
+        # pass
+        self.logger=CollectLog().Collection()
+        self.logger.info("测试开始" )
 
 
     def test_get(self,url='/futureloan/mvc/api/member/recharge',data={'mobilephone':'13667692121','amount':1000}):
@@ -32,9 +32,9 @@ class TestHttpRequest(unittest.TestCase):
         # else:
         #     print("注册测试通过")
 
-    def tearDown(self,logger=CollectLog().Collection()):
-        pass
-        # logger.info("测试结束")
+    def tearDown(self):
+        # pass
+        self.logger.info("测试结束")
 
 
 if __name__ =='__main__':
