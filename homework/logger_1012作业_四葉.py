@@ -30,5 +30,7 @@ class CollectLog:
         #                     datefmt='%m-%d %H:%M')
         return logger
 
+
+
 # log=CollectLog()
 # log.Collection()
