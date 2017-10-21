@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
 #!/usr/bin/env python
-# @Time    : 2017/10/21 15:45
+# @Time    : 2017/10/21 18:55
 # @Author  : SiYe
 # @PROJECT_NAME    : LemonClass
-# @File    : class_1021_读取配置文件.py.py
+# @File    : class_1021_执行配置文件.py
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import  configparser
