@@ -25,7 +25,7 @@ class ExcelDemo:
         col1=sheet_obj.col_values(0)     #取第1列的值
         # print(col1)
         for i in range(sheet_obj.nrows):
-            print(int(col1[i]))
+            print(col1[i])
 
     def ExcelWrite(self):
         wb = xlwt3.Workbook()  # 获取一个工作表,创建一个对象
@@ -35,6 +35,7 @@ class ExcelDemo:
         sheet.write(2, 0, 1)
         sheet.write(2, 1, 1)
         sheet.write(2, 2, xlwt3.Formula("A3+B3"))
+        sheet.write(3, 1, 1)
         wb.save(tkinter.filedialog.asksaveasfilename(filetype=[('xls','.xls'),('xlsx','.xlsx')],
                                                      title="保存指定的excle文档",defaultextension='.xls'))
 
