@@ -13,7 +13,7 @@ from datetime import datetime
 
 class ExcelDemo:
     def __init__(self):
-        self.style0=style0 = xlwt3.easyxf('font: name Times New Roman, color-index red, bold on',
+        self.style0 = xlwt3.easyxf('font: name Times New Roman, color-index red, bold on',
                             num_format_str='#,##0.00')
         self.style1 = xlwt3.easyxf(num_format_str='D-MMM-YY')
         pass
@@ -26,6 +26,9 @@ class ExcelDemo:
         # print(col1)
         for i in range(sheet_obj.nrows):
             print(col1[i])
+        #for i in col1:
+        #    print(i)
+        workbook.close()
 
     def ExcelWrite(self):
         wb = xlwt3.Workbook()  # 获取一个工作表,创建一个对象
@@ -55,7 +58,7 @@ file.ExcelOpen()
 7：sheet_obj.ncols 获取列数
 8：sheet_obj.row_values(0) 获取第1行的值
 9：sheet_obj.col_values(1) 获取第2列的值
-10：sheet_obj.cell_value(1,2)   第2行第3列的值
+10：sheet_obj.cell_value(1,2)   第2行第3列的值  先行后列
 '''
 
 '''写入数据到excel的常用方法：
