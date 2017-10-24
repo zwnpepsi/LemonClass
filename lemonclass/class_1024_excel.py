@@ -36,8 +36,8 @@ class ExcelDemo:
         sheet.write(2, 1, 1)
         sheet.write(2, 2, xlwt3.Formula("A3+B3"))
         sheet.write(3, 1, 1)
-        wb.save(tkinter.filedialog.asksaveasfilename(filetype=[('xls','.xls'),('xlsx','.xlsx')],
-                                                     title="保存指定的excle文档",defaultextension='.xls'))
+        wb.save(tkinter.filedialog.asksaveasfilename(filetype=[('xls','.xls'),('xlsx','.xlsx'),('All file','*')],
+                                                     title="保存指定的excel文档",defaultextension='.xls'))
 
 #测试代码
 file=ExcelDemo()
