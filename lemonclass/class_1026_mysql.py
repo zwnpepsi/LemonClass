@@ -1,5 +1,11 @@
-#!/bin/env Python
-# -*- coding:utf-8 -*-
+# -*- coding: UTF-8 -*-
+#!/usr/bin/env python
+# @Time    : 2017/10/26 17:43
+# @Author  : SiYe
+# @PROJECT_NAME    : LemonClass
+# @File    : class_1026_mysql.py
+# @Software: PyCharm
+#-------------------------------------------------------------------------------
 import mysql.connector
 import  configparser
 #进行实例化
