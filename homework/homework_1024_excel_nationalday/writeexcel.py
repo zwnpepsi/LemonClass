@@ -16,7 +16,7 @@ class WriteExcel:
     def write_excel(self,i,result):
         self.sheet.write(i, 0, result)
 
-    def save_excel(self,path=tkinter.filedialog.asksaveasfilename(filetype=[('xls','.xls'),('xlsx','.xlsx'),('All file','*')],
+    def save_excel(self,path=tkinter.filedialog.asksaveasfilename(filetypes=[('xls','.xls'),('xlsx','.xlsx'),('All file','*')],
                                                      title="保存指定的excel文档",defaultextension='.xls')):
         self.wb.save(path)
 
