@@ -46,7 +46,40 @@ sql_create_table3="create table test_data(\
 sql_insert="insert into student values(1,'siye','boy', 1,'lemonclass',sysdate(),sysdate())"
 sql_insert2="insert into student(id,name,sex) VALUES(2,'siye2','boy')"
 
-cursor.execute(sql_create_table3)
+#数据放到元组里
+insert_1="insert into student (name,sex,class_id)VALUES (%s,%s,1)"
+data1=("nuanyang","girl")    #元组数据
+# cursor.execute(insert_1,data1)   #插入元组类型的数据
+
+insert_2="insert into student (name,sex,class_id)VALUES (%(name)s,%(sex)s,1)"
+data2={"name":"siye2","sex":"boy"}        #字典数据
+# cursor.execute(insert_2,data2)   #插入元组类型的数据
+
+insert_3="insert into student (name,sex,class_id)VALUES (%s,%s,1)"
+data3=[("siye3","boy"),("feifei","girl")]           #列表数据,列表内不许是元组
+# cursor.executemany(insert_3,data3)
+# result=cursor.fetchall()   #读取数据
+# cursor.execute(insert_1,data)   #插入元组类型的数据
+select="select * from student WHERE id >%s and sex = %s"     #查询操作
+cursor.execute(select,(0,"girl"))   #select,(0,)数据必须是元组
+
+
+result2=cursor.fetchall()    #输出列表类型数据
+# result3=cursor.fetchone()  #输出元组类型数据
+print(result2)
+
+
+
+#修改操作
+update="update student set name ='SIYE' WHERE name ='siye2'"
+cursor.execute(update)
+
+#删除操作
+#drop databse siye  删除数据库
+#drop table student    删除表
+delete="delete from student WHERE 1   AND (OR ) 2"
+
+
 
 cursor.close()
 cnn.close()
