@@ -26,8 +26,10 @@ class Run:
             recharge_data = {"mobilephone": mobile, "amount": amount}
             if http_method == "GET":
                 request_result = self.http_request_obj.get(url, recharge_data)
-            else:
+            elif http_method == "POST":
                 request_result = self.http_request_obj.post(url, recharge_data)
+            else:
+                print("请求数据错误")
             self.write_result.write_excel(i,request_result)
         self.write_result.save_excel()
 
