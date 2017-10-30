@@ -33,5 +33,5 @@ class ReadExcel:
             print("配置文件设置错误")
 
 # 测试代码
-a=ReadExcel("config.conf")
-a.read_excel()
+# a=ReadExcel("config.conf")
+# a.read_excel()

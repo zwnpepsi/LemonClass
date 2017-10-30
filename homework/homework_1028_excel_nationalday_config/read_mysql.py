@@ -27,6 +27,6 @@ class ReadMysql:
         cnn.close()
         return result
 
-#测试代码
+# 测试代码
 # a=ReadMysql("test_case")
 # a.read_Mysql()
