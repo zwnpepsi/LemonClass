@@ -79,7 +79,12 @@ cursor.execute(update)
 #drop table student    删除表
 delete="delete from student WHERE 1   AND (OR ) 2"
 
-
-
-cursor.close()
-cnn.close()
+try:
+    cursor.execute("sql语句")
+    cursor.execute("commit")    #执行成功就保存
+except mysql.connector.Error as e:
+    print(e)    #raise e
+    cursor.execute("rollback")   #执行失败就回滚
+finally:
+    cursor.close()
+    cnn.close()
