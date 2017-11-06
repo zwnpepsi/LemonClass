@@ -29,7 +29,8 @@ class SmtpTest:
         msg.attach(MIMEText('来自四葉的单元测试报告', 'plain', 'utf-8'))
         with open(attachmentfile,'rb') as f:
             attachment=MIMEBase('html','html',filename=attachmentfile)
-            attachment.add_header('Content-Disposition', 'attachment', filename=attachmentfile)
+            # attachment.add_header('Content-Disposition', 'attachment', filename=attachmentfile)
+            attachment.add_header('Content-Disposition', 'attachment', filename=('gb2312', '', attachmentfile))
             attachment.add_header('Content-ID', '<0>')
             attachment.add_header('X-Attachment-Id', '0')
             attachment.set_payload(f.read())
@@ -42,8 +43,8 @@ class SmtpTest:
     def MailSend(self,attachmentfile):
         try:
             s = smtplib.SMTP_SSL("smtp.qq.com", 465)
-            s.login("1076168822@qq.com", "dlbfutsgvlsxjgaj")
-            s.sendmail("1076168822@qq.com", "204893985@qq.com>", self.MailMessage(attachmentfile).as_string())
+            s.login("1076168822@qq.com", "ooizuperphhrjhhd")
+            s.sendmail("1076168822@qq.com", "1076168822@qq.com", self.MailMessage(attachmentfile).as_string())
             logging.info("发送成功")
         except smtplib.SMTPException as e:
             logging.error("发送失败Error: %s" % e)

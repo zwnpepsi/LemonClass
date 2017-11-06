@@ -13,10 +13,10 @@ class HtmlReporter:
         suite.addTest(TestHttpRequest('test_post'))
         now = time.strftime('%Y-%m-%d_%H_%M_%S')
         # 执行测试集合
-        filePath = "pyResult" + now + ".html"
+        filePath = "pyResult测试报告" + now + ".html"
         fp = open(filePath, 'wb')
         # 生成报告的Title,描述
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Python Test Report', description='This  is Python  Report')
+        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Python 测试报告', description='This  is Python  Report')
         runner.run(suite)
         # print(type(runner.run(suite)))
         return filePath
