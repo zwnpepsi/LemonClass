@@ -27,6 +27,7 @@ class TestRun(unittest.TestCase):
     @unpack
     def test_run(self,i,url,mobilephone,amount,method,expected):
         try:
+            global request_result
             recharge_data = {"mobilephone": str(int(mobilephone)), "amount": int(amount)}
             if method == "GET":
                 request_result = http_request_obj.get(url, recharge_data)
@@ -46,6 +47,8 @@ class TestRun(unittest.TestCase):
         print("测试结束")
 
 if __name__ =='__main__':
+    suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestRun)
+    unittest.TextTestRunner().run(suite)
     # suite = unittest.TestSuite()
     # suite.addTest(TestRun('test_run'))
     # now = time.strftime('%Y-%m-%d_%H_%M_%S')
@@ -55,6 +58,5 @@ if __name__ =='__main__':
     # # 生成报告的Title,描述
     # runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Python Test Report', description='This  is Python  Report')
     # runner.run(suite)
-    suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestRun)
-    unittest.TextTestRunner().run(suite)
+
 

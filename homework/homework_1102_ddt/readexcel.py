@@ -26,9 +26,15 @@ class ReadExcel:
 
         elif int(self.cf.get("FLAG","mode"))==0:
             result = []
+            # key = 1
             for i in eval(self.cf.get("FLAG","case_list")):
                 result.append(sheet_obj.row_values(i))
+                # result[key-1][0] = key
+                # key += 1
+            for j in range(len(eval(self.cf.get("FLAG","case_list")))):
+                result[j][0]=j+1
             return result
+
         else:
             print("配置文件设置错误")
 
