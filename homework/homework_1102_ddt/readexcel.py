@@ -16,7 +16,7 @@ class ReadExcel:
         # 读取配置文件
         self.cf.read(self.config, encoding="utf-8")
     def read_excel(self):
-        workbook = xlrd.open_workbook("1102作业读取数据源.xlsx")
+        workbook = xlrd.open_workbook("recharge_data.xlsx")
         sheet_obj = workbook.sheets()[0]  # 获取sheet1   #根据索引获取excel里面的表单对象
         if int(self.cf.get("FLAG","mode"))==1:
             result=[]
