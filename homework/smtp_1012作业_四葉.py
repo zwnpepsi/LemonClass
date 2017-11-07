@@ -29,7 +29,6 @@ class SmtpTest:
         msg.attach(MIMEText('来自四葉的单元测试报告', 'plain', 'utf-8'))
         with open(attachmentfile,'rb') as f:
             attachment=MIMEBase('html','html',filename=attachmentfile)
-            # attachment.add_header('Content-Disposition', 'attachment', filename=attachmentfile)
             attachment.add_header('Content-Disposition', 'attachment', filename=('gb2312', '', attachmentfile))
             attachment.add_header('Content-ID', '<0>')
             attachment.add_header('X-Attachment-Id', '0')
