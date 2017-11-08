@@ -15,7 +15,8 @@ class WriteData:
         self.sheet = self.wb.add_sheet(self.sheet_name)  # 创建一个表单
 
     def writeData(self,i,result):
-        self.sheet.write(i, 0, result)
+        self.sheet.write(i, 0, i+1)
+        self.sheet.write(i, 1, result)
 
     def saveData(self,path):
         self.wb.save(path)
