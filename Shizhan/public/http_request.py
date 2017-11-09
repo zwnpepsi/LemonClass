@@ -17,7 +17,7 @@ class HttpRequest:
         cf = configparser.ConfigParser()
         # 读取配置文件
         cf.read(self.config, encoding="utf-8")
-        self.ip = cf["HTTP"]["ip"]+":"+cf["HTTP"]["host"]
+        self.ip = cf["HTTP"]["ip"]+":"+cf["HTTP"]["port"]
 
     def get(self,url,data):
         url = self.ip+url
