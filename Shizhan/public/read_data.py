@@ -7,10 +7,13 @@
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import  xlrd
+import configparser
+from Shizhan.conf import projectpath
 
 class ReadData:
     def __init__(self,file_path):
         self.file_path=file_path
+
 
     def getData(self):
         workbook = xlrd.open_workbook(self.file_path)
