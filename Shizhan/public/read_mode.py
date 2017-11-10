@@ -7,15 +7,13 @@
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import configparser
-from Shizhan.conf import projectpath
-
 
 class ReadMode:
     def __init__(self,path,mode_option,caselist_option):
         cf = configparser.ConfigParser()
         cf.read(path)  # code_config地址还没写
-        self.mode = cf.getint("FLAG", mode1)
-        self.case_list = eval(cf.get("FLAG", mode_list))
+        self.mode = cf.getint("FLAG", mode_option)
+        self.case_list = eval(cf.get("FLAG", caselist_option))
 
     def getMode(self):
         return self.mode
