@@ -19,7 +19,7 @@ class Register:
         self.result = result
         self.logger = logger
         self.http_request_obj = HttpRequest(projectpath.httpconf_path,self.logger)  # 生成一个http请求实例
-        self.write_result = WriteData("register",self.logger)
+        self.write_result = WriteData("register",self.logger,["序号","status","code","result_data","msg"])
 
     def register(self):
         for i in range(len(self.result)):
@@ -31,7 +31,7 @@ class Register:
             register_data = {"mobilephone": mobile, "pwd": pwd,"regname":regname}
             request_result = self.http_request_obj.post(url, register_data)
 
-            self.write_result.writeData(i,str(request_result))
+            self.write_result.writeData(i,request_result)
         now = time.strftime('%Y-%m-%d_%H_%M_%S')
         register_result=projectpath.testresult_path+"\\register_result" + now + ".xls"
         self.write_result.saveData(register_result)
@@ -40,5 +40,6 @@ class Register:
 # logger=CollectLog("注册操作").collectLog()
 # result = ReadData(projectpath.testdata_path+"\\register_data.xls","REGISTER_MODE","REGISTER_CASELIST",logger).getData()
 # run_result = Register(result,logger)
+# run_result.register()
 # mail=SmtpResults(projectpath.smtp_path)
 # mail.MailSend(run_result.register())

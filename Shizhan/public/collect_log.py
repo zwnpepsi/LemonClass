@@ -13,7 +13,7 @@ class CollectLog:
         logger.setLevel(logging.INFO)
         if not logger.handlers:
         #创建一个文件handler，用于写入日志文件，并设置写入log信息过滤级别
-            filehandler=logging.FileHandler(os.path.join(projectpath.Results_path,self.logger_name+".log"),encoding="utf-8")
+            filehandler=logging.FileHandler(os.path.join(os.path.join(projectpath.Results_path,"Log"),self.logger_name+".log"),encoding="utf-8")
             filehandler.setLevel(logging.INFO)
         #创建一个控制台handler，用户控制台输出日志信息，并设置输出log信息过滤级别
             streamhandler=logging.StreamHandler()

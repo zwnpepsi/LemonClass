@@ -30,24 +30,42 @@ class SmtpResults:
         # formataddr(Header("美华华", 'utf-8').encode(),"1076168822@qq.com")
         subject=self.cf.get("EMAIL", "subject")
         msg['Subject'] = Header(subject, 'utf-8').encode()
-        msg.attach(MIMEText('来自四葉的单元测试报告', 'plain', 'utf-8'))
-        with open(attachmentfile,'rb') as f:
-            attachment=MIMEBase('html','html',filename=attachmentfile)
-            attachment.add_header('Content-Disposition', 'attachment', filename=('gb2312', '', os.path.split(os.path.realpath(attachmentfile))[1]))
-            attachment.add_header('Content-ID', '<0>')
-            attachment.add_header('X-Attachment-Id', '0')
-            attachment.set_payload(f.read())
-            # 用Base64编码:
-            encoders.encode_base64(attachment)
-            # 添加到MIMEMultipart:
-            msg.attach(attachment)
+        msg.attach(MIMEText(self.cf.get("EMAIL", "Text"), 'plain', 'utf-8'))
+        # with open(attachmentfile,'rb') as f:
+        #     attachment=MIMEBase('html','html',filename=attachmentfile)
+        #     attachment.add_header('Content-Disposition', 'attachment', filename=('gb2312', '', os.path.split(os.path.realpath(attachmentfile))[1]))
+        #     attachment.add_header('Content-ID', '<0>')
+        #     attachment.add_header('X-Attachment-Id', '0')
+        #     attachment.set_payload(f.read())
+        #     # 用Base64编码:
+        #     encoders.encode_base64(attachment)
+        #     # 添加到MIMEMultipart:
+        #     msg.attach(attachment)
+        for i in range(len(attachmentfile)):
+            with open(attachmentfile[i], 'rb') as f:
+                attachment= MIMEBase('html', 'html', filename=attachmentfile[i])
+                attachment.add_header('Content-Disposition', 'attachment',
+                                      filename=('gb2312', '', os.path.split(os.path.realpath(attachmentfile[i]))[1]))
+                attachment.add_header('Content-ID', '<0>')
+                attachment.add_header('X-Attachment-Id', '0')
+                attachment.set_payload(f.read())
+                # 用Base64编码:
+                encoders.encode_base64(attachment)
+                # 添加到MIMEMultipart:
+                msg.attach(attachment)
+
+
+
+
+
+
         return msg
 
     def MailSend(self,attachmentfile):
         global s
         try:
-            s = smtplib.SMTP_SSL("smtp.qq.com", 465)
-            s.login("1076168822@qq.com", "ooizuperphhrjhhd")
+            s = smtplib.SMTP_SSL(self.cf.get("EMAIL", "smtp_server"), self.cf.get("EMAIL", "port"))
+            s.login(self.cf.get("EMAIL", "login_name"), self.cf.get("EMAIL", "login_pwd"))
             s.sendmail(self.cf.get("EMAIL", "msg_from"), self.cf.get("EMAIL", "msg_from"), self.smtpResults(attachmentfile).as_string())
             logging.info("发送成功")
         except smtplib.SMTPException as e:
