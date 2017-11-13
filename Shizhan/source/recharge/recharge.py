@@ -37,9 +37,11 @@ class Recharge:
                 print("请求数据错误")
             self.write_result.writeData(i, str(request_result))
         now = time.strftime('%Y-%m-%d_%H_%M_%S')
-        self.write_result.saveData(projectpath.testresult_path+"\\recharge_result" + now + ".xls")
+        recharge_result=projectpath.testresult_path+"\\recharge_result" + now + ".xls"
+        self.write_result.saveData(recharge_result)
+        return recharge_result
 
-logger=CollectLog("充值操作").collectLog()
-result = ReadData(projectpath.testdata_path+"\\recharge_data.xlsx","RECHARGE_MODE","RECHARGE_CASELIST",logger).getData()
-run_result = Recharge(result,logger)
-run_result.recharge()
+# logger=CollectLog("充值操作").collectLog()
+# result = ReadData(projectpath.testdata_path+"\\recharge_data.xlsx","RECHARGE_MODE","RECHARGE_CASELIST",logger).getData()
+# run_result = Recharge(result,logger)
+# run_result.recharge()

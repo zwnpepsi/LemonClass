@@ -19,7 +19,7 @@ class CollectLog:
             streamhandler=logging.StreamHandler()
             streamhandler.setLevel(logging.INFO)
         #设置handler的日志输出格式
-            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+            formatter = logging.Formatter('%(asctime)s - %(name)s - %(funcName)s - %(levelname)s - %(message)s')
         #给handler添加格式
             filehandler.setFormatter(formatter)
             streamhandler.setFormatter(formatter)

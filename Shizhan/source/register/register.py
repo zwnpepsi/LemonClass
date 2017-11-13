@@ -12,6 +12,7 @@ from Shizhan.public.write_data import WriteData
 from Shizhan.public import projectpath
 from Shizhan.public.collect_log import CollectLog
 import time
+from Shizhan.public.smtp_results import SmtpResults
 
 class Register:
     def __init__(self,result,logger):
@@ -32,9 +33,12 @@ class Register:
 
             self.write_result.writeData(i,str(request_result))
         now = time.strftime('%Y-%m-%d_%H_%M_%S')
-        self.write_result.saveData(projectpath.testresult_path+"\\register_result" + now + ".xls")
+        register_result=projectpath.testresult_path+"\\register_result" + now + ".xls"
+        self.write_result.saveData(register_result)
+        return register_result
 
-logger=CollectLog("注册操作").collectLog()
-result = ReadData(projectpath.testdata_path+"\\register_data.xls","REGISTER_MODE","REGISTER_CASELIST",logger).getData()
-run_result = Register(result,logger)
-run_result.register()
+# logger=CollectLog("注册操作").collectLog()
+# result = ReadData(projectpath.testdata_path+"\\register_data.xls","REGISTER_MODE","REGISTER_CASELIST",logger).getData()
+# run_result = Register(result,logger)
+# mail=SmtpResults(projectpath.smtp_path)
+# mail.MailSend(run_result.register())

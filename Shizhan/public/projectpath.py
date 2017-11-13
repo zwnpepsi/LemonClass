@@ -30,3 +30,6 @@ httpconf_path=os.path.join(os.path.join(project_path,"conf"),"http.conf")
 
 #flag.conf所在地址
 flag_path=os.path.join(os.path.join(project_path,"conf"),"flag.conf")
+
+#smtp.conf所在地址
+smtp_path=os.path.join(os.path.join(project_path,"conf"),"smtp.conf")
