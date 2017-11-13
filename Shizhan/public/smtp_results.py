@@ -10,9 +10,6 @@ import logging
 import configparser
 import os
 
-
-
-
 class SmtpResults:
     def __init__(self,path):
         self.cf = configparser.ConfigParser()
@@ -53,12 +50,6 @@ class SmtpResults:
                 encoders.encode_base64(attachment)
                 # 添加到MIMEMultipart:
                 msg.attach(attachment)
-
-
-
-
-
-
         return msg
 
     def MailSend(self,attachmentfile):
