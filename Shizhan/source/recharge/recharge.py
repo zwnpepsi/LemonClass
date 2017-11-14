@@ -22,6 +22,7 @@ class Recharge:
         self.write_result = WriteData("recharge",self.logger,["序号","status","code","result_data","msg"])
 
     def recharge(self):
+        now = time.strftime('%Y-%m-%d_%H_%M_%S')
         for i in range(len(self.result)):
             test_data = self.result[i]  # 对列表的每个元素进行拆分，拆分后又是列表格式
             url = test_data[0]
@@ -37,7 +38,6 @@ class Recharge:
             else:
                 print("请求数据错误")
             self.write_result.writeData(i, request_result)
-        now = time.strftime('%Y-%m-%d_%H_%M_%S')
         recharge_result=projectpath.testresult_path+"\\recharge_result" + now + ".xls"
         self.write_result.saveData(recharge_result)
         return recharge_result

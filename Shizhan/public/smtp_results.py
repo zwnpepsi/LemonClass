@@ -53,12 +53,6 @@ class SmtpResults:
                 encoders.encode_base64(attachment)
                 # 添加到MIMEMultipart:
                 msg.attach(attachment)
-
-
-
-
-
-
         return msg
 
     def MailSend(self,attachmentfile):
