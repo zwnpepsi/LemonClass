@@ -7,13 +7,16 @@
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import unittest
-from Shizhan.source.recharge.recharge import Recharge
 
 class TestInterface(unittest.TestCase):
-    def __init__(self,methodName):
+    def __init__(self,methodName,recharge_data ,logger,i,http_request_obj,write_result,http_method):
         super(TestInterface,self).__init__(methodName)
-        pass
-
+        self.recharge_data =recharge_data
+        self.logger=logger
+        self.i=i
+        self.http_request_obj=http_request_obj
+        self.write_result=write_result
+        self.http_method=http_method
 
 
     def setUp(self):

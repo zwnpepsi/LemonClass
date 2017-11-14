@@ -12,6 +12,7 @@ from Shizhan.public.read_data import ReadData
 from Shizhan.public.write_data import WriteData
 from Shizhan.public import projectpath
 from Shizhan.public.collect_log import CollectLog
+from Shizhan.public.test_interface import TestInterface
 
 
 class Recharge:
