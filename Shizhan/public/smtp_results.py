@@ -10,9 +10,6 @@ import logging
 import configparser
 import os
 
-
-
-
 class SmtpResults:
     def __init__(self,path):
         self.cf = configparser.ConfigParser()
