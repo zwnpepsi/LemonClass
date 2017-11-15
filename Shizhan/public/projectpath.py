@@ -33,3 +33,6 @@ flag_path=os.path.join(project_path,"conf","flag.conf")
 
 #smtp.conf所在地址
 smtp_path=os.path.join(project_path,"conf","smtp.conf")
+
+#report存放地址
+report_path=os.path.join(project_path,"Results","report")
