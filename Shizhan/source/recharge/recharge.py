@@ -56,6 +56,7 @@ class Recharge:
         runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="充值接口测试结果", verbosity=2)
         runner.run(suite)
         fp.close()
+        self.logger.info("生成测试报告成功")
         recharge_result=projectpath.testresult_path+"\\充值接口测试结果" + now + ".xls"
         self.write_result.saveData(recharge_result)
         return filePath
