@@ -10,6 +10,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 
+
 class ElementLocation:
     def __init__(self):
         self.browser = webdriver.Chrome()
