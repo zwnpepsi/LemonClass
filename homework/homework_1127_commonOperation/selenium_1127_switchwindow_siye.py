@@ -22,18 +22,18 @@ class SwitchWindowLocation:
     #网站进行搜索函数
     def searchKeyword(self):
         search_form_path="//input[@id='kw']"    #找到百度首页搜索栏
-        WebDriverWait(self.browser,5,1).until(EC.visibility_of_element_located((By.XPATH,search_form_path)))   #判断搜索框可见
+        WebDriverWait(self.browser,60,1).until(EC.visibility_of_element_located((By.XPATH,search_form_path)))   #判断搜索框可见
         self.browser.find_element_by_xpath(search_form_path).send_keys("selenium webdriver")   #搜索框传入指定参数
 
         search_button_path="//input[@id='su']"   #找到搜索输入框元素
-        WebDriverWait(self.browser,5,1).until(EC.element_to_be_clickable((By.XPATH, search_button_path)))  # 判断百度一下按钮可用
+        WebDriverWait(self.browser,60,1).until(EC.element_to_be_clickable((By.XPATH, search_button_path)))  # 判断百度一下按钮可用
         self.browser.find_element_by_xpath(search_button_path).click()   #点击百度一下按钮
 
         result_selenium_path="//div[text()=' The biggest change in ']//preceding-sibling::h3//a"    #找到官网链接结果元素
-        WebDriverWait(self.browser, 5, 1).until(EC.element_to_be_clickable((By.XPATH, result_selenium_path)))  # 判断官网链接可点击
+        WebDriverWait(self.browser, 60, 1).until(EC.element_to_be_clickable((By.XPATH, result_selenium_path)))  # 判断官网链接可点击
         self.browser.find_element_by_xpath(result_selenium_path).click()   #点击官网链接关键字元素
 
-        WebDriverWait(self.browser, 10, 1).until(EC.new_window_is_opened)  # 一用就报错，用不好
+        WebDriverWait(self.browser, 60, 1).until(EC.new_window_is_opened)  # 一用就报错，用不好
         #获取当前所有窗口
         windows=self.browser.window_handles
         #切换到最新打开的窗口
@@ -41,7 +41,7 @@ class SwitchWindowLocation:
 
         download_button_path="//div[@class='downloadBox']"      #定位到新网页右侧下载按钮位置
         #download_button_path="//li[@id='menu_download']"       #定位到新网页上方下载按钮位置
-        WebDriverWait(self.browser, 20, 1).until(EC.element_to_be_clickable((By.XPATH, download_button_path)))  # 判断download按钮可点击
+        WebDriverWait(self.browser, 60, 1).until(EC.element_to_be_clickable((By.XPATH, download_button_path)))  # 判断download按钮可点击
         self.browser.find_element_by_xpath(download_button_path).click()     #点击download按钮
 
         time.sleep(3)  #等待3秒查看下载界面信息
