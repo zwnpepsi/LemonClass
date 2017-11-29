@@ -33,11 +33,12 @@ class SwitchWindowLocation:
         WebDriverWait(self.browser, 5, 1).until(EC.element_to_be_clickable((By.XPATH, result_selenium_path)))  # 判断官网链接可点击
         self.browser.find_element_by_xpath(result_selenium_path).click()   #点击官网链接关键字元素
 
+        WebDriverWait(self.browser, 10, 1).until(EC.new_window_is_opened)  # 一用就报错，用不好
         #获取当前所有窗口
         windows=self.browser.window_handles
         #切换到最新打开的窗口
         self.browser.switch_to.window(windows[-1])
-        # WebDriverWait(self.browser, 10, 1).until(EC.new_window_is_opened(windows[0]))  #一用就报错，用不好
+
         download_button_path="//div[@class='downloadBox']"      #定位到新网页右侧下载按钮位置
         #download_button_path="//li[@id='menu_download']"       #定位到新网页上方下载按钮位置
         WebDriverWait(self.browser, 20, 1).until(EC.element_to_be_clickable((By.XPATH, download_button_path)))  # 判断download按钮可点击

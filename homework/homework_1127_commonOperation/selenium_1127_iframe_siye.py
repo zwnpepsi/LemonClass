@@ -21,10 +21,12 @@ class iFrameLocation:
 
     #判断元素是否存在的函数
     def isElementExist(self, element):
+        time.sleep(2)
         flag = True
-        if self.browser.find_element_by_xpath(element):   #定位元素
+        try:
+            self.browser.find_element_by_xpath(element)   #定位元素
             return flag     #元素存在，返回flag=True
-        else:
+        except Exception as  e:
             flag = False
             return flag     #元素不存在，返回flag=False
 
@@ -36,11 +38,11 @@ class iFrameLocation:
         self.browser.find_element_by_xpath(login_access).click()   #点击首页登录按钮
 
         user_login_option_path = "//div[@class='ptlogin-wrap']"
-        WebDriverWait(self.browser, 10, 1).until(EC.visibility_of_element_located((By.XPATH, user_login_option_path)))  # 判断选择帐号登录类型界面可见
         #因为登录时有可能会出现先选择qq登录还是微信登录选项，所以调用判断函数，读取flag值
         flag = self.isElementExist(user_login_option_path)
 
         if flag:           #如果选择帐号登录类型界面元素存在
+            WebDriverWait(self.browser, 10, 1).until(EC.visibility_of_element_located((By.XPATH, user_login_option_path)))  # 判断选择帐号登录类型界面可见
             self.browser.find_element_by_xpath("//a[text()='QQ登录']").click()    #点击qq登录按钮
             # 切换到登录iframe检查元素位置并操作
             self.browser.switch_to.frame("login_frame_qq")  # 切换到login_frame_qq iframe内
