@@ -11,16 +11,16 @@ import unittest
 class TestInterface(unittest.TestCase):
     def __init__(self,methodName,recharge_data,logger,i,http_request_obj,write_result,http_method,url,test_data,description,expected):
         super(TestInterface,self).__init__(methodName)
-        self.recharge_data =recharge_data
-        self.logger=logger
-        self.i=i
-        self.http_request_obj=http_request_obj
-        self.write_result=write_result
-        self.http_method=http_method
-        self.url=url
-        self.test_data=test_data
-        self.description=description
-        self.expected=expected
+        self.recharge_data = recharge_data
+        self.logger = logger
+        self.i = i
+        self.http_request_obj = http_request_obj
+        self.write_result = write_result
+        self.http_method = http_method
+        self.url = url
+        self.test_data = test_data
+        self.description = description
+        self.expected = expected
 
     def setUp(self):
         self.logger.info("单元测试开始啦！")
@@ -46,7 +46,7 @@ class TestInterface(unittest.TestCase):
                     self.assertEqual(response['code'], str(int(self.expected)), "充值失败")
                 except Exception as e:
                     result = "FAIL"
-                    self.logger.error("充值单元测试失败，错误原因为: %s" % e)
+                    self.error = self.logger.error("充值单元测试失败，错误原因为: %s" % e)
                     raise e
                 else:
                     self.logger.info("充值单元测试成功")

@@ -1,8 +1,8 @@
 #-*-coding:utf-8-*-
-from homework.HttpRequestDemo import HttpRequest
+from homework.homework_before.HttpRequestDemo import HttpRequest
 import unittest
 import json
-from homework.logger_1012作业_四葉 import CollectLog
+from homework.homework_before.logger_1012作业_四葉 import CollectLog
 
 class TestHttpRequest(unittest.TestCase):
 

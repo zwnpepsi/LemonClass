@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.utils import parseaddr, formataddr
 from email.mime.base import MIMEBase
 import smtplib
-from homework.htmlreport_unittest_HttpRequest import HtmlReporter
+from homework.homework_before.htmlreport_unittest_HttpRequest import HtmlReporter
 import time
 import logging
 

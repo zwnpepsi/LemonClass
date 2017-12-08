@@ -28,12 +28,13 @@ class SwitchWindowLocation:
         search_button_path="//input[@id='su']"   #找到搜索输入框元素
         WebDriverWait(self.browser,60,1).until(EC.element_to_be_clickable((By.XPATH, search_button_path)))  # 判断百度一下按钮可用
         self.browser.find_element_by_xpath(search_button_path).click()   #点击百度一下按钮
+        windows = self.browser.window_handles
 
         result_selenium_path="//div[text()=' The biggest change in ']//preceding-sibling::h3//a"    #找到官网链接结果元素
         WebDriverWait(self.browser, 60, 1).until(EC.element_to_be_clickable((By.XPATH, result_selenium_path)))  # 判断官网链接可点击
         self.browser.find_element_by_xpath(result_selenium_path).click()   #点击官网链接关键字元素
 
-        WebDriverWait(self.browser, 60, 1).until(EC.new_window_is_opened)  # 一用就报错，用不好
+        WebDriverWait(self.browser, 60, 1).until(EC.new_window_is_opened(windows))  # 一用就报错，用不好
         #获取当前所有窗口
         windows=self.browser.window_handles
         #切换到最新打开的窗口

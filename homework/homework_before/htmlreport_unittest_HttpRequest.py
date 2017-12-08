@@ -1,7 +1,7 @@
 import unittest
 import time
 import HTMLTestRunner
-from homework.unittest_HttpRequest import TestHttpRequest
+from homework.homework_before.unittest_HttpRequest import TestHttpRequest
 
 class HtmlReporter:
     def __init__(self):

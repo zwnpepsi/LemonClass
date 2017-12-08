@@ -1,0 +1,313 @@
+ Wed, 06 Dec 2017 00:43:05  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:43:12  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:43:17  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:43:23  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:43:30  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:43:36  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:43:43  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:43:50  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:43:56  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:44:03  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:44:09  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:44:14  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:44:21  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:44:28  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:44:34  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:45:13  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:45:21  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:45:27  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:45:33  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:45:42  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:45:47  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:45:54  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:45:59  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:46:04  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:46:11  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:46:20  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:46:25  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 00:46:31  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 00:46:38  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Wed, 06 Dec 2017 00:46:44  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:44:35  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:44:45  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:45:25  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:45:35  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:46:57  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:47:06  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:47:44  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:47:53  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:50:48  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:51:00  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:51:17  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:51:30  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:51:43  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:51:54  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:52:15  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:52:30  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 20:54:46  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 20:54:55  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Wed, 06 Dec 2017 20:55:02  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 22:53:58  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 22:54:10  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 22:59:25  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 22:59:36  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:01:26  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:01:38  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:02:38  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:02:48  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Wed, 06 Dec 2017 23:02:50  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Wed, 06 Dec 2017 23:02:52  ERROR logger.py exception [ line:51 ] 投标测试不通过！异常原因是：Lists differ: ['2017-12-06', '23:02', '全栈测试专用'] != [<selenium.webdriver.remote.webelement.Web[337 chars]5")>]
+
+First differing element 0:
+'2017-12-06'
+<selenium.webdriver.remote.webelement.Web[80 chars]-3")>
+
+- ['2017-12-06', '23:02', '全栈测试专用']
++ [<selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-3")>,
++  <selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-4")>,
++  <selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-5")>] : 这次投标信息错误
+Traceback (most recent call last):
+  File "C:\Users\张伟男\PycharmProjects\LemonClass\homework\homework_pageobject_siye\TestCases\test_bid.py", line 62, in test_bid_bybidGrabLink_bybidName_okNum
+    self.assertEqual([tender_date,tender_time,bidname],bidinfo,"这次投标信息错误")
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 1027, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 1009, in assertSequenceEqual
+    self.fail(msg)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: Lists differ: ['2017-12-06', '23:02', '全栈测试专用'] != [<selenium.webdriver.remote.webelement.Web[337 chars]5")>]
+
+First differing element 0:
+'2017-12-06'
+<selenium.webdriver.remote.webelement.Web[80 chars]-3")>
+
+- ['2017-12-06', '23:02', '全栈测试专用']
++ [<selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-3")>,
++  <selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-4")>,
++  <selenium.webdriver.remote.webelement.WebElement (session="54c6f9103d7ac1e29cf21cae6c553506", element="0.9202218147013665-5")>] : 这次投标信息错误
+ Wed, 06 Dec 2017 23:02:57  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:04:08  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:04:18  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Wed, 06 Dec 2017 23:04:19  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Wed, 06 Dec 2017 23:04:21  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Wed, 06 Dec 2017 23:04:26  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:23:47  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:23:47  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Wed, 06 Dec 2017 23:23:53  INFO logger.py info [ line:36 ] 投标前账户余额为:89164800
+ Wed, 06 Dec 2017 23:23:56  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Wed, 06 Dec 2017 23:23:56  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Wed, 06 Dec 2017 23:23:58  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Wed, 06 Dec 2017 23:23:58  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Wed, 06 Dec 2017 23:23:59  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Wed, 06 Dec 2017 23:24:04  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:26:47  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:26:47  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Wed, 06 Dec 2017 23:26:57  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Wed, 06 Dec 2017 23:26:57  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Wed, 06 Dec 2017 23:26:58  INFO logger.py info [ line:36 ] 投标前账户余额为:89163800
+ Wed, 06 Dec 2017 23:26:58  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Wed, 06 Dec 2017 23:26:58  INFO logger.py info [ line:36 ] 投标后账户余额为:89162800
+ Wed, 06 Dec 2017 23:26:58  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Wed, 06 Dec 2017 23:26:58  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Wed, 06 Dec 2017 23:26:59  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Wed, 06 Dec 2017 23:27:05  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Wed, 06 Dec 2017 23:59:52  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Wed, 06 Dec 2017 23:59:52  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:00:01  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:00:01  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:00:03  INFO logger.py info [ line:36 ] 投标前账户余额为:89160800
+ Thu, 07 Dec 2017 00:00:03  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:00:03  INFO logger.py info [ line:36 ] 投标后账户余额为:89159800
+ Thu, 07 Dec 2017 00:00:03  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:00:03  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:00:04  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:00:09  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:00:16  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:00:16  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:00:23  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:00:29  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:00:35  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:00:35  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:00:42  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:00:47  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:00:54  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:00:54  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:01:03  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Thu, 07 Dec 2017 00:01:03  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:01:04  INFO logger.py info [ line:36 ] 投标前账户余额为:89159800
+ Thu, 07 Dec 2017 00:01:04  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:01:04  INFO logger.py info [ line:36 ] 投标后账户余额为:89158800
+ Thu, 07 Dec 2017 00:01:04  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:01:04  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:01:06  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:01:11  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:01:18  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:01:18  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:01:27  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:01:27  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:01:29  INFO logger.py info [ line:36 ] 投标前账户余额为:89158800
+ Thu, 07 Dec 2017 00:01:29  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:01:29  INFO logger.py info [ line:36 ] 投标后账户余额为:89157800
+ Thu, 07 Dec 2017 00:01:29  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:01:29  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:01:30  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:01:35  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:03:09  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:03:09  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:03:18  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:03:18  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:03:19  INFO logger.py info [ line:36 ] 投标前账户余额为:89157800
+ Thu, 07 Dec 2017 00:03:19  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:03:19  INFO logger.py info [ line:36 ] 投标后账户余额为:89156800
+ Thu, 07 Dec 2017 00:03:19  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:03:19  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:03:21  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:03:26  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:03:33  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:03:33  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:03:40  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:03:45  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:03:52  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:03:52  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:03:59  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:04:05  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:04:12  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:04:12  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:04:20  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Thu, 07 Dec 2017 00:04:20  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:04:21  INFO logger.py info [ line:36 ] 投标前账户余额为:89156800
+ Thu, 07 Dec 2017 00:04:21  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:04:21  INFO logger.py info [ line:36 ] 投标后账户余额为:89155800
+ Thu, 07 Dec 2017 00:04:21  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:04:21  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:04:23  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:04:28  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:04:35  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:04:35  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:04:44  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:04:44  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:04:45  INFO logger.py info [ line:36 ] 投标前账户余额为:89155800
+ Thu, 07 Dec 2017 00:04:45  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:04:45  INFO logger.py info [ line:36 ] 投标后账户余额为:89154800
+ Thu, 07 Dec 2017 00:04:45  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:04:45  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:04:47  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:04:52  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:06:52  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:06:52  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:07:01  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:07:01  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:07:02  INFO logger.py info [ line:36 ] 投标前账户余额为:89154800
+ Thu, 07 Dec 2017 00:07:02  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:07:02  INFO logger.py info [ line:36 ] 投标后账户余额为:89153800
+ Thu, 07 Dec 2017 00:07:02  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:07:02  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:07:04  ERROR logger.py exception [ line:51 ] 投标测试不通过！异常原因是：Lists differ: ['2017-12-07', '00:07', '全栈测试专用'] != ['2017-12-07', '00:06', '全栈测试专用']
+
+First differing element 1:
+'00:07'
+'00:06'
+
+- ['2017-12-07', '00:07', '全栈测试专用']
+?                     ^
+
++ ['2017-12-07', '00:06', '全栈测试专用']
+?                     ^
+ : 这次投标信息错误
+Traceback (most recent call last):
+  File "C:\Users\张伟男\PycharmProjects\LemonClass\homework\homework_pageobject_siye\TestCases\test_bid.py", line 179, in test_bid_bybidButton_okNum
+    self.assertEqual([tender_date, tender_time, bidname], bidinfo, "这次投标信息错误")
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 1027, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 1009, in assertSequenceEqual
+    self.fail(msg)
+  File "C:\Program Files (x86)\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: Lists differ: ['2017-12-07', '00:07', '全栈测试专用'] != ['2017-12-07', '00:06', '全栈测试专用']
+
+First differing element 1:
+'00:07'
+'00:06'
+
+- ['2017-12-07', '00:07', '全栈测试专用']
+?                     ^
+
++ ['2017-12-07', '00:06', '全栈测试专用']
+?                     ^
+ : 这次投标信息错误
+ Thu, 07 Dec 2017 00:07:09  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:07:16  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:07:16  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:07:23  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:07:29  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:07:36  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:07:36  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试开始
+ Thu, 07 Dec 2017 00:07:41  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:07:47  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:07:53  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:07:53  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:08:02  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Thu, 07 Dec 2017 00:08:02  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:08:04  INFO logger.py info [ line:36 ] 投标前账户余额为:89153800
+ Thu, 07 Dec 2017 00:08:04  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:08:04  INFO logger.py info [ line:36 ] 投标后账户余额为:89152800
+ Thu, 07 Dec 2017 00:08:04  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:08:04  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:08:05  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:08:11  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 00:08:17  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 00:08:17  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 00:08:27  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 00:08:27  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 00:08:28  INFO logger.py info [ line:36 ] 投标前账户余额为:89152800
+ Thu, 07 Dec 2017 00:08:28  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 00:08:28  INFO logger.py info [ line:36 ] 投标后账户余额为:89151800
+ Thu, 07 Dec 2017 00:08:28  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 00:08:28  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 00:08:29  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 00:08:35  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 22:12:18  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 22:12:18  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 22:12:27  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 22:12:27  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 22:12:29  INFO logger.py info [ line:36 ] 投标前账户余额为:89149600
+ Thu, 07 Dec 2017 22:12:29  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 22:12:29  INFO logger.py info [ line:36 ] 投标后账户余额为:89148600
+ Thu, 07 Dec 2017 22:12:29  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 22:12:29  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 22:12:30  INFO logger.py info [ line:36 ] 验证点击页面上方投标按钮进入投标界面选择一个标进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 22:12:35  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 22:12:42  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 22:12:42  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试开始
+ Thu, 07 Dec 2017 22:12:49  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行不合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 22:12:55  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 22:13:01  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 22:13:01  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试开始
+ Thu, 07 Dec 2017 22:13:07  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行非10倍数金额投标功能---测试通过
+ Thu, 07 Dec 2017 22:13:12  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 22:13:19  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 22:13:19  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 22:13:27  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试通过
+ Thu, 07 Dec 2017 22:13:27  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 22:13:29  INFO logger.py info [ line:36 ] 投标前账户余额为:89148600
+ Thu, 07 Dec 2017 22:13:29  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 22:13:29  INFO logger.py info [ line:36 ] 投标后账户余额为:89147600
+ Thu, 07 Dec 2017 22:13:29  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 22:13:29  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 22:13:30  INFO logger.py info [ line:36 ] 验证点击抢投标按钮进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 22:13:36  INFO logger.py info [ line:36 ] ------------测试结束------------
+ Thu, 07 Dec 2017 22:13:43  INFO logger.py info [ line:36 ] ------------测试开始------------
+ Thu, 07 Dec 2017 22:13:43  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标成功提示文字---测试开始
+ Thu, 07 Dec 2017 22:13:54  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能---测试通过
+ Thu, 07 Dec 2017 22:13:54  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标后余额是否正确---测试开始
+ Thu, 07 Dec 2017 22:13:56  INFO logger.py info [ line:36 ] 投标前账户余额为:89147600
+ Thu, 07 Dec 2017 22:13:56  INFO logger.py info [ line:36 ] 投标金额为:1000
+ Thu, 07 Dec 2017 22:13:56  INFO logger.py info [ line:36 ] 投标后账户余额为:89146600
+ Thu, 07 Dec 2017 22:13:56  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标消耗金额---测试通过
+ Thu, 07 Dec 2017 22:13:56  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息是否正确---测试开始
+ Thu, 07 Dec 2017 22:13:57  INFO logger.py info [ line:36 ] 验证点击标名进入投标信息界面进行合规金额投标功能-投标信息---测试通过
+ Thu, 07 Dec 2017 22:14:03  INFO logger.py info [ line:36 ] ------------测试结束------------
