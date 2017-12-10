@@ -6,6 +6,9 @@
 # @File    : test_bid.py
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
+import pytest
+from homework.homework_pageobject_pytest_siye.TestData.investment_testdata import *
+from homework.homework_pageobject_pytest_siye.Common.projectpath import *
 
 
 #测试投标功能

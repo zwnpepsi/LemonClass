@@ -7,4 +7,7 @@
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import pytest
-pytest.main(['-m','smoke','--html','TestReport/test_smoke_report.html'])
+import time
+
+now = time.strftime('%Y-%m-%d-%H-%M')
+pytest.main(['-m','smoke','--html',('TestReport/'+now+'test_smoke_report.html')])
