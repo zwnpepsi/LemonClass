@@ -61,7 +61,7 @@ bidding_success_info_locator = "//div[@class='layui-layer-content']//div//div[@c
 bidding_error_info_locator = "//div[@class='text-center']"
 # 投标页面-标名
 bidding_bidName_locator = "//span[contains(text(),'%s')]"
-# 投标信息界面-投标成功页面右上角x按钮
+# 投标页面-投标成功页面右上角x按钮
 bidding_success_close_locator = "//div[@class='layui-layer-content']//div//div//img[contains(@src,'close')]"
 
 #----------------------------投标信息页元素-----------------------------
