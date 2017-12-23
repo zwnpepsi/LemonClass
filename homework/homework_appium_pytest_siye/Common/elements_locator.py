@@ -10,37 +10,39 @@
 
 #-----------------------------首页元素-----------------------------
     #首页-"我"按钮
-home_me_locator = "//android.widget.TabWidget[@resource-id=\"android:id/tabs\"]/android.widget.LinearLayout[4]"
+home_me_locator = "//android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[4]"
     #首页-"项目"按钮
-home_project_locator = "//android.widget.TabWidget[@resource-id=\"android:id/tabs\"]/android.widget.LinearLayout[3]"
+home_project_locator = "//android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[3]"
     #首页-"注册/登录"按钮
 home_login_locator = "com.xxzb.fenwoo:id/btn_login"
+    #登录完毕提示开启手势验证提示框的以后再说按钮
+home_cancel_locator = "com.xxzb.fenwoo:id/btn_cancel"
 
 #-----------------------------登录页元素-----------------------------
 # 手机号码输入框
 login_phone_locator = "com.xxzb.fenwoo:id/et_phone"
 # 密码输入框
-login_password_locator = "//*[@name='password']"
-# 登录按钮
-login_button_locator = "//button[text()='登录']"
-# 密码提示信息
-password_info_locator = "//input[@name='password']//following-sibling::div[@class='form-error-info']"
-# 账号提示信息
-username_info_locator = "//input[@name='phone']//following-sibling::div[@class='form-error-info']"
-# 报错信息
-error_info_locator = "//div[@class='layui-layer-content']"
+login_password_locator = "com.xxzb.fenwoo:id/et_pwd"
+# 输入完手机号，"下一步"按钮
+login_afterphone_next_button_locator = "com.xxzb.fenwoo:id/btn_next_step"
+# 输入完密码，"确定按钮"
+login_confirm_locator = "com.xxzb.fenwoo:id/btn_next_step"
+# "忘记密码"
+login_forget_password_locator = "忘记密码?"
+# 密码报错信息
+# error_info_locator = ""
 
 #----------------------------我的账户页元素-----------------------------
-# 我的账户页面-我的余额
-myAccount_balance_locator = "//li[@class='color_sub']"
-# 我的账户页面-投资项目按钮
-myAccount_investment_locator = "//div[text()='投资项目']"
-# 我的账户页面-投资项目里第一个标的日期
-myAccount_tender_seedate_locator = "//div[@ms-html='item.date']"
-# 我的账户页面-投资项目里第一个标的时间
-myAccount_tender_seetime_locator = "//div[@ms-html='item.time']"
-# 我的账户页面-投资项目里第一个标的名称
-myAccount_tender_name_locator = "//div[@class='deal_tab_font1']//a"
+# 我的账户页面-我的昵称
+myAccount_nickname_locator = "com.xxzb.fenwoo:id/tv_name"
+# 我的账户页面-设置按钮
+myAccount_option_locator = "com.xxzb.fenwoo:id/iv_switch_slider"
+# 我的账户页面-设置页面-退出当前账号按钮
+myAccount_logout_locator = "com.xxzb.fenwoo:id/btn_login_out"
+# 我的账户页面-设置页面-确认注销按钮
+myAccount_confirm_logout_locator = "com.xxzb.fenwoo:id/btn_confirm"
+# # 我的账户页面-投资项目里第一个标的名称
+# myAccount_tender_name_locator = "//div[@class='deal_tab_font1']//a"
 
 #----------------------------投标页元素-----------------------------
 # 投标页面-投标金额

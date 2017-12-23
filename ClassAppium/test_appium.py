@@ -15,25 +15,24 @@ desired_caps['automationName'] = 'Appium'
 desired_caps['platformName'] = 'Android'
 desired_caps['platformVersion'] = '23'
 desired_caps['deviceName'] = '127.0.0.1:62001'
-desired_caps['appPackage'] = 'com.ibox.calculators'
-desired_caps['appActivity'] = '.CalculatorActivity'
+desired_caps['appPackage'] = 'com.xxzb.fenwoo'
+desired_caps['appActivity'] = '.activity.MainActivity'
 
 #连接代理，获取连接到手机
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
 #操作元素
-driver.find_element_by_name("1").click()
-
-driver.find_element_by_name("5").click()
-
-driver.find_element_by_name("9").click()
-
-driver.find_element_by_name("DEL").click()
-
-driver.find_element_by_name("+").click()
-
-driver.find_element_by_name("6").click()
-
-driver.find_element_by_name("=").click()
-
-driver.quit()
+driver.find_element_by_xpath("//android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[4]").click()
+# driver.find_element_by_name("5").click()
+#
+# driver.find_element_by_name("9").click()
+#
+# driver.find_element_by_name("DEL").click()
+#
+# driver.find_element_by_name("+").click()
+#
+# driver.find_element_by_name("6").click()
+#
+# driver.find_element_by_name("=").click()
+#
+# driver.quit()

@@ -7,15 +7,15 @@
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 import xlrd
-import xlwt3
+import xlwt
 import tkinter.filedialog
 from datetime import datetime
 
 class ExcelDemo:
     def __init__(self):
-        self.style0 = xlwt3.easyxf('font: name Times New Roman, color-index red, bold on',
+        self.style0 = xlwt.easyxf('font: name Times New Roman, color-index red, bold on',
                             num_format_str='#,##0.00')
-        self.style1 = xlwt3.easyxf(num_format_str='D-MMM-YY')
+        self.style1 = xlwt.easyxf(num_format_str='D-MMM-YY')
         pass
 
     def ExcelOpen(self):
@@ -31,13 +31,13 @@ class ExcelDemo:
         workbook.close()
 
     def ExcelWrite(self):
-        wb = xlwt3.Workbook()  # 获取一个工作表,创建一个对象
+        wb = xlwt.Workbook()  # 获取一个工作表,创建一个对象
         sheet = wb.add_sheet("test")    #创建一个表单
         sheet.write(0, 0, 1234.56, self.style0)
         sheet.write(1, 0, datetime.now(), self.style1)
         sheet.write(2, 0, 1)
         sheet.write(2, 1, 1)
-        sheet.write(2, 2, xlwt3.Formula("A3+B3"))
+        sheet.write(2, 2, xlwt.Formula("A3+B3"))
         sheet.write(3, 1, 1)
         wb.save(tkinter.filedialog.asksaveasfilename(filetype=[('xls','.xls'),('xlsx','.xlsx'),('All file','*')],
                                                      title="保存指定的excel文档",defaultextension='.xls'))

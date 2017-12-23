@@ -6,13 +6,13 @@
 # @File    : write_data.py
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
-import xlwt3
+import xlwt
 
 class WriteData:
     def __init__(self,sheet_name,logger,head):
         self.sheet_name=sheet_name
         self.logger=logger
-        self.wb = xlwt3.Workbook()  # 获取一个工作表,创建一个对象
+        self.wb = xlwt.Workbook()  # 获取一个工作表,创建一个对象
         self.sheet = self.wb.add_sheet(self.sheet_name)  # 创建一个表单
         self.head=head
         for i in range(len(self.head)):

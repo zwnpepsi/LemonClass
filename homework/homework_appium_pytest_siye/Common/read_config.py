@@ -16,6 +16,8 @@ class ReadConfig:
 
     def readConfig(self,path,section,option):
         cf = configparser.ConfigParser()
-        cf.read(path, "utf-8")
+        cf.read(path)
         value = cf.get(section,option)
         return value
+
+

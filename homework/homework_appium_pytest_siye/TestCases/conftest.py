@@ -13,7 +13,7 @@ from homework.homework_appium_pytest_siye.Common.projectpath import *
 
 @pytest.fixture()
 def init_driver():
-    desired_caps = eval(ReadConfig().readConfig(os.path.join(project_path,"Common","app_info.conf"),"APP_INFO","desired_caps"))
+    desired_caps = eval(ReadConfig().readConfig(os.path.join(config_file_path,"Common","app_info.conf"),"APP_INFO","desired_caps"))
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     yield driver
     driver.quit()
