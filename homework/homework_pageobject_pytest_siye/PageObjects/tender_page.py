@@ -3,7 +3,7 @@
 # @Time    : 2017/12/4 0:01
 # @Author  : SiYe
 # @PROJECT_NAME    : LemonClass
-# @File    : tender_page.py
+# @File    : project_page.py
 # @Software: PyCharm
 #-------------------------------------------------------------------------------
 from selenium.webdriver.support.wait import WebDriverWait

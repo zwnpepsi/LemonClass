@@ -26,5 +26,9 @@ class HomePage:
     def click_meButton(self):
         self.driver.find_element_by_xpath(home_me_locator).click()
 
+    #点击"项目"按钮进入项目页面
+    def click_projectButton(self):
+        self.driver.find_element_by_xpath(home_project_locator).click()
+
     
 

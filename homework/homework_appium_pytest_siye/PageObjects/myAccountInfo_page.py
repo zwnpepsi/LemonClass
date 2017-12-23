@@ -25,6 +25,14 @@ class MyAccountInfoPage:
         self.driver.find_element_by_id(myAccount_logout_locator).click()
         self.driver.find_element_by_id(myAccount_confirm_logout_locator).click()
 
+    #获取余额
+    def get_balance(self):
+        balance = self.driver.find_element_by_id(myAccount_balance_locator).text()
+        return balance
+
+    #点击"项目"按钮进入项目页面
+    def click_projectButton(self):
+        self.driver.find_element_by_xpath(home_project_locator).click()
 
 
 

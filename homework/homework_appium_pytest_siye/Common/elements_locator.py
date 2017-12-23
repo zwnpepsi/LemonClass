@@ -41,37 +41,14 @@ myAccount_option_locator = "com.xxzb.fenwoo:id/iv_switch_slider"
 myAccount_logout_locator = "com.xxzb.fenwoo:id/btn_login_out"
 # 我的账户页面-设置页面-确认注销按钮
 myAccount_confirm_logout_locator = "com.xxzb.fenwoo:id/btn_confirm"
-# # 我的账户页面-投资项目里第一个标的名称
-# myAccount_tender_name_locator = "//div[@class='deal_tab_font1']//a"
+# 我的账户页面-余额
+myAccount_balance_locator = "com.xxzb.fenwoo:id/tv_leave"
 
-#----------------------------投标页元素-----------------------------
-# 投标页面-投标金额
-bidding_num_locator = "//span[contains(text(),'%s')]/ancestor::div[@class='title']/following-sibling::div[1]//input[@data-url='/Invest/invest']"
-# 投标页面-投标金额下方投标按钮
-bidding_bidButton_locator = "//span[contains(text(),'%s')]/ancestor::div[@class='title']/following-sibling::div[1]//button"
-# 投标页面-投标金额右侧全投按钮
-bidding_allBid_locator = "//span[contains(text(),'%s')]/ancestor::div[@class='title']/following-sibling::div[1]//input[@class='set-all']"
-# 投标页面-投标成功提示文字
-bidding_success_info_locator = "//div[@class='layui-layer-content']//div//div[@class='capital_font1 note']"
-# 投标页面-金额错误提示文字
-bidding_error_info_locator = "//div[@class='text-center']"
-# 投标页面-标名
-bidding_bidName_locator = "//span[contains(text(),'%s')]"
-# 投标页面-投标成功页面右上角x按钮
-bidding_success_close_locator = "//div[@class='layui-layer-content']//div//div//img[contains(@src,'close')]"
+#----------------------------项目页元素-----------------------------
+# 项目页面-标名
+project_num_locator = "%s"
+# 项目界面-投标金额
+project_amount_locator = "com.xxzb.fenwoo:id/et_investamount"
+# 项目界面-立即投资按钮
+project_invest_locator = "com.xxzb.fenwoo:id/btn_investnow"
 
-#----------------------------投标信息页元素-----------------------------
-# 投标信息页面-投标金额
-tenderInfo_num_locator = "//input[@data-url='/Invest/invest']"
-# 投标信息页面-投标金额下方投标按钮
-tenderInfo_bidButton_locator = "//input[@data-url='/Invest/invest']//parent::div//parent::div//following-sibling::button"
-# 投标信息页面-投标金额右侧全投按钮
-tenderInfo_allBid_locator = "//input[@class='set-all']"
-# 投标信息页面-投标成功提示文字
-tenderInfo_success_info_locator = "//div[@class='layui-layer-content']//div//div[@class='capital_font1 note']"
-# 投标信息页面-金额错误提示文字
-tenderInfo_error_info_locator = "//div[@class='text-center']"
-# 投标信息界面-标名
-tenderInfo_bidName_locator = "//div[@class='float_left']//span//following-sibling::span"
-# 投标信息界面-投标成功页面右上角x按钮
-tenderInfo_success_close_locator = "//div[@class='layui-layer-content']//div//div//img[contains(@src,'close')]"
