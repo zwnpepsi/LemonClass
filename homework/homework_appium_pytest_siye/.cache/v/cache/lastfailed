@@ -1,0 +1,12 @@
+{
+  "TestCases/test_bid.py::TestBid::test_bid_bybidButton_okNum": true,
+  "TestCases/test_bid.py::TestBid::test_bid_bybidGrabLink_bybidName_incorrectNum": true,
+  "TestCases/test_bid.py::TestBid::test_bid_bybidGrabLink_bybidName_no10xNum": true,
+  "TestCases/test_bid.py::TestBid::test_bid_bybidGrabLink_bybidName_okNum": true,
+  "TestCases/test_bid.py::TestBid::test_bid_bybidName_okNum": true,
+  "TestCases/test_bid_main.py::TestBid::test_bid_bybidButton_okNum": true,
+  "TestCases/test_bid_main.py::TestBid::test_bid_bybidGrabLink_bybidName_incorrectNum": true,
+  "TestCases/test_bid_main.py::TestBid::test_bid_bybidGrabLink_bybidName_no10xNum": true,
+  "TestCases/test_bid_main.py::TestBid::test_bid_bybidGrabLink_bybidName_okNum": true,
+  "TestCases/test_bid_main.py::TestBid::test_bid_bybidName_okNum": true
+}
