@@ -17,7 +17,7 @@ class MyAccountInfoPage:
 
     #获取我的昵称
     def get_nickname(self):
-        nickname = self.driver.find_element_by_id(myAccount_nickname_locator).text
+        nickname = self.driver.find_element_by_id(myAccount_nickname_locator).get_attribute('text')
         return nickname
 
     #退出登录

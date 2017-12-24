@@ -10,8 +10,6 @@ import pytest
 from homework.homework_appium_pytest_siye.TestData.investment_testdata import *
 from homework.homework_appium_pytest_siye.Common.projectpath import *
 from homework.homework_appium_pytest_siye.PageObjects.home_page import HomePage
-from homework.homework_appium_pytest_siye.PageObjects.login_page import LoginPage
-from homework.homework_appium_pytest_siye.TestData.COMM_DATA import *
 from homework.homework_appium_pytest_siye.PageObjects.myAccountInfo_page import MyAccountInfoPage
 from homework.homework_appium_pytest_siye.PageObjects.project_page import ProjectPage
 from homework.homework_appium_pytest_siye.PageObjects.mytender_page import MyTenderPage
