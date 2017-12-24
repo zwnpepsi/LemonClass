@@ -34,7 +34,14 @@ class MyTenderPage:
 
     #计算时间差多少秒的函数
     def sub_seconds(self,before_time,after_time):
-
         starttime = datetime.datetime.strptime(before_time, '%m-%d %H:%M:%S')
         endtime = datetime.datetime.strptime(after_time, '%m-%d %H:%M:%S')
         return (endtime-starttime).seconds
+
+    #关闭投资记录页面
+    def click_closeButton(self):
+        self.driver.find_element_by_id(tendelist_close_locator).click()
+
+    # 在标的详情界面点击左上角返回按钮
+    def click_backButton(self):
+        self.driver.find_element_by_id(tendelist_back_locator).click()

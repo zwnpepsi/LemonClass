@@ -75,6 +75,10 @@ tendelist_investor_locator = "com.xxzb.fenwoo:id/tv_user_name"
 tendelist_time_locator = "com.xxzb.fenwoo:id/tv_createtime"
 # 投资记录界面-投资金额
 tendelist_amount_locator = "com.xxzb.fenwoo:id/tv_invest_money"
+# 投资记录界面-左上角关闭按钮
+tendelist_close_locator = "com.xxzb.fenwoo:id/btn_back"
+# 投资记录界面-左上角返回按钮
+tendelist_back_locator = "com.xxzb.fenwoo:id/btn_back"
 
 
 

@@ -56,6 +56,12 @@ class TestBid:
             assert abs(MyTenderPage(init_driver).sub_seconds(bidinfo[2],tender_time))<=3        #因为有时间误差，故对两次记录的投标时间进行小于3秒的比对，误差3秒内认为通过
             assert [investor,amount] == [bidinfo[0],bidinfo[1]]             #在时间验证通过的情况下，对投资人和投资金额进行断言
 
+            #注销账号操作
+            MyTenderPage(init_driver).click_closeButton()   #关闭投资记录界面
+            MyTenderPage(init_driver).click_backButton()    #在标的详情页面点击左上角返回按钮
+            MyTenderPage(init_driver).click_backButton()    #在投资记录页面点击左上角返回按钮
+            MyAccountInfoPage(init_driver).logout()     #退出登录
+
         except AssertionError as e:
             img_name="test_bid_bycommendProject_error.png"
             init_driver.get_screenshot_as_file(image_path+"/"+img_name)
