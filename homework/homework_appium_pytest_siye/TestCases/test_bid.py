@@ -25,13 +25,6 @@ class TestBid:
     @pytest.mark.usefixtures("init_driver")
     @pytest.mark.smoke
     def test_bid_bycommendProject(self,init_driver):
-        #完成登录操作
-        # 点击页面右上角注册/登录按钮进入登录页
-        HomePage(init_driver).click_loginButton()
-        # 进行登录操作
-        LoginPage(init_driver).login(login_username, login_password)
-        # 关闭开启手势密码提示框
-        HomePage(init_driver).click_cancelButton()
 
         try:
             #查余额
