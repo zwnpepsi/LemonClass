@@ -1,5 +1,4 @@
 {
-  "TestCases/test_bid.py::TestBid::()::test_bid_bycommendProject": true,
   "TestCases/test_bid.py::TestBid::test_bid_bybidButton_okNum": true,
   "TestCases/test_bid.py::TestBid::test_bid_bybidGrabLink_bybidName_incorrectNum": true,
   "TestCases/test_bid.py::TestBid::test_bid_bybidGrabLink_bybidName_no10xNum": true,

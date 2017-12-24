@@ -66,7 +66,7 @@ project_back_locator = "com.xxzb.fenwoo:id/btn_back"
 
 #----------------------------我的投资页面元素-----------------------------
 # 我的投资页面-最上面一个投资记录
-mytender_firsttender_locator = "//android.widget.ListView[@resource-id='com.xxzb.fenwoo:id/lv_loan']/android.widget.RelativeLayout[1]"
+mytender_firsttender_locator = "com.xxzb.fenwoo:id/layout_content"
 # 我的投资页面-投资记录按钮
 mytender_tenderlist_locator = "com.xxzb.fenwoo:id/layout_investrecord"
 # 投资记录界面-投资人

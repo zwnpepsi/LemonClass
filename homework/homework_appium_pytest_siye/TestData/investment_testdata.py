@@ -12,7 +12,7 @@ bid_name = "123】【平】"
 investor = "土小姐"
 
 #金额
-amount = '1000'
+amount = 1000
 
 
 
