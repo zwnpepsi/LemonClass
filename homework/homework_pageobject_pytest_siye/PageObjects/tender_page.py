@@ -23,9 +23,8 @@ class TenderPage:
         WebDriverWait(self.driver, 60, 1).until(EC.presence_of_element_located((By.XPATH, bidding_num_locator %bid_name)))  # 判断元素加载完成
         self.driver.find_element_by_xpath(bidding_num_locator %bid_name).send_keys(amount)
         self.driver.find_element_by_xpath(bidding_bidButton_locator %bid_name).click()
-        tender_date = time.strftime('%Y-%m-%d')
-        tender_time = time.strftime('%H:%M')
-        return tender_date, tender_time
+        tender_time = time.strftime('%Y-%m-%d %H:%M:%S')
+        return tender_time
 
     #勾选全投进行投标操作
     def bid_allBid(self,bid_name):

@@ -23,7 +23,7 @@ driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
 #操作元素
 driver.find_element_by_xpath("//android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[4]").click()
-# driver.find_element_by_name("5").click()
+driver.find_element_by_name("5").get_attribute('text')
 #
 # driver.find_element_by_name("9").click()
 #

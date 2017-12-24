@@ -16,11 +16,22 @@ class ProjectPage:
         self.driver = driver
 
     #正常投标操作
-    def bid_normal(self,bid_name,amount):
-        self.driver.find_element_by_name(project_num_locator %bid_name).click()
+    def bid_normal(self,amount):
         self.driver.find_element_by_id(project_amount_locator).send_keys(amount)
         self.driver.find_element_by_id(project_invest_locator).click()
         invest_date = time.strftime('%Y-%m-%d')
         invest_time = time.strftime('%H:%M')
         return invest_date, invest_time
 
+    #获取投资成功提示文字
+    def get_successTip(self):
+        successTip = self.driver.find_element_by_id(project_successtip_locator).get_attribute('text')
+        return successTip
+
+    #关闭投资成功提示
+    def close_success_info_byconfirmButton(self):
+        self.driver.find_element_by_id(project_confirm_locator).click()
+
+    # 点击"返回"按钮进入首页页面
+    def click_backButton(self):
+        self.driver.find_element_by_id(project_back_locator).click()

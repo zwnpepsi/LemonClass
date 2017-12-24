@@ -30,5 +30,9 @@ class HomePage:
     def click_projectButton(self):
         self.driver.find_element_by_xpath(home_project_locator).click()
 
+    #点击"精选项目"推荐的标
+    def click_commendProjectMessage(self):
+        self.driver.find_element_by_id(home_commendProjectMessage_locator).click()
+
     
 

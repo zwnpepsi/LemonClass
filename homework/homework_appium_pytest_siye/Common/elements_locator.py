@@ -17,6 +17,8 @@ home_project_locator = "//android.widget.TabWidget[@resource-id='android:id/tabs
 home_login_locator = "com.xxzb.fenwoo:id/btn_login"
     #登录完毕提示开启手势验证提示框的以后再说按钮
 home_cancel_locator = "com.xxzb.fenwoo:id/btn_cancel"
+    #首页-"精选项目"下方推荐的标信息
+home_commendProjectMessage_locator = "com.xxzb.fenwoo:id/layout_loan_item"
 
 #-----------------------------登录页元素-----------------------------
 # 手机号码输入框
@@ -42,7 +44,11 @@ myAccount_logout_locator = "com.xxzb.fenwoo:id/btn_login_out"
 # 我的账户页面-设置页面-确认注销按钮
 myAccount_confirm_logout_locator = "com.xxzb.fenwoo:id/btn_confirm"
 # 我的账户页面-余额
-myAccount_balance_locator = "com.xxzb.fenwoo:id/tv_leave"
+myAccount_balance_locator = "//android.widget.TextView[@resource-id='com.xxzb.fenwoo:id/tv_leave']"
+# 我的账户页面-首页按钮
+myAccount_home_locator = "//android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[1]"
+# 我的账户页面-我的投资按钮
+myAccount_mytender_locator = "//android.widget.GridView[@resource-id='com.xxzb.fenwoo:id/gv_functions']/android.widget.LinearLayout[1]"
 
 #----------------------------项目页元素-----------------------------
 # 项目页面-标名
@@ -51,4 +57,25 @@ project_num_locator = "%s"
 project_amount_locator = "com.xxzb.fenwoo:id/et_investamount"
 # 项目界面-立即投资按钮
 project_invest_locator = "com.xxzb.fenwoo:id/btn_investnow"
+# 项目界面-投标成功提示文字
+project_successtip_locator = "com.xxzb.fenwoo:id/tv_title"
+# 投标界面-投标成功提示确定按钮
+project_confirm_locator = "com.xxzb.fenwoo:id/btn_confirm"
+# 投标界面-返回按钮
+project_back_locator = "com.xxzb.fenwoo:id/btn_back"
+
+#----------------------------我的投资页面元素-----------------------------
+# 我的投资页面-最上面一个投资记录
+mytender_firsttender_locator = "//android.widget.ListView[@resource-id='com.xxzb.fenwoo:id/lv_loan']/android.widget.RelativeLayout[1]"
+# 我的投资页面-投资记录按钮
+mytender_tenderlist_locator = "com.xxzb.fenwoo:id/layout_investrecord"
+# 投资记录界面-投资人
+tendelist_investor_locator = "com.xxzb.fenwoo:id/tv_user_name"
+# 投资记录界面-投资时间
+tendelist_time_locator = "com.xxzb.fenwoo:id/tv_createtime"
+# 投资记录界面-投资金额
+tendelist_amount_locator = "com.xxzb.fenwoo:id/tv_invest_money"
+
+
+
 
