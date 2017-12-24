@@ -19,7 +19,7 @@ class TestLogin():
 
     # 测试登录成功功能
     @pytest.mark.usefixtures("init_driver")
-    # @pytest.mark.smoke
+    @pytest.mark.smoke
     def test_login_ok(self,init_driver):
         try:
             #点击页面右上角注册/登录按钮进入登录页
