@@ -19,4 +19,7 @@ image_path=os.path.join(project_path,"Images")
 #测试报告所在路径
 TestReport_path=os.path.join(project_path,"TestReport")
 
+#手机配置文件路径
+appInfo_path=os.path.join(config_file_path,"Common","app_info.conf")
+
 

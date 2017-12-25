@@ -16,7 +16,7 @@ from homework.homework_appium_pytest_siye.TestData.COMM_DATA import *
 
 @pytest.fixture()
 def init_driver():
-    desired_caps = eval(ReadConfig().readConfig(os.path.join(config_file_path,"Common","app_info.conf"),"APP_INFO","desired_caps"))
+    desired_caps = eval(ReadConfig().readConfig(appInfo_path,"APP_INFO","desired_caps"))
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     # 完成登录操作
     # 点击页面右上角注册/登录按钮进入登录页
@@ -30,7 +30,7 @@ def init_driver():
 
 @pytest.fixture()
 def init_login_driver():
-    desired_caps = eval(ReadConfig().readConfig(os.path.join(config_file_path,"Common","app_info.conf"),"APP_INFO","desired_caps"))
+    desired_caps = eval(ReadConfig().readConfig(appInfo_path,"APP_INFO","desired_caps"))
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     yield driver
     driver.quit()
