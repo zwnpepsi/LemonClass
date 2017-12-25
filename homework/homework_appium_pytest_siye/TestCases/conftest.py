@@ -12,6 +12,7 @@ from homework.homework_appium_pytest_siye.Common.projectpath import *
 from homework.homework_appium_pytest_siye.PageObjects.home_page import HomePage
 from homework.homework_appium_pytest_siye.PageObjects.login_page import LoginPage
 from homework.homework_appium_pytest_siye.TestData.COMM_DATA import *
+from homework.homework_appium_pytest_siye.PageObjects.myAccountInfo_page import MyAccountInfoPage
 
 
 @pytest.fixture()
@@ -26,6 +27,7 @@ def init_driver():
     # 关闭开启手势密码提示框
     HomePage(driver).click_cancelButton()
     yield driver
+    MyAccountInfoPage(init_driver).logout()  # 退出登录
     driver.quit()
 
 @pytest.fixture()
@@ -33,4 +35,5 @@ def init_login_driver():
     desired_caps = eval(ReadConfig().readConfig(appInfo_path,"APP_INFO","desired_caps"))
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     yield driver
+    MyAccountInfoPage(init_driver).logout()  # 退出登录
     driver.quit()

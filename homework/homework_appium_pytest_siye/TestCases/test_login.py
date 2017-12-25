@@ -36,8 +36,6 @@ class TestLogin():
             nickname=MyAccountInfoPage(init_login_driver).get_nickname()
             assert check_nickname == nickname
 
-            #退出登录
-            MyAccountInfoPage(init_login_driver).logout()
         except AssertionError as e:
             img_name = "test_login_ok_error.png"
             init_login_driver.get_screenshot_as_file(image_path+"/"+img_name)

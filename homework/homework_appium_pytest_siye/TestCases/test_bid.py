@@ -58,7 +58,6 @@ class TestBid:
             MyTenderPage(init_driver).click_closeButton()   #关闭投资记录界面
             MyTenderPage(init_driver).click_backButton()    #在标的详情页面点击左上角返回按钮
             MyTenderPage(init_driver).click_backButton()    #在投资记录页面点击左上角返回按钮
-            MyAccountInfoPage(init_driver).logout()     #退出登录
 
         except AssertionError as e:
             img_name="test_bid_bycommendProject_error.png"
